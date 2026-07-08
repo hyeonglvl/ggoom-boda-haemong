@@ -9,7 +9,6 @@ interface Props {
   stage: Stage;
   isLoading: boolean;
   onExitDone: () => void;
-  sentinelRef: React.RefObject<HTMLDivElement | null>;
   /** Marks the intro moon's resting spot (the 52px .moon element). */
   introSentinelRef: React.RefObject<HTMLDivElement | null>;
   /** Screen position of the intro moon captured just before IntroScreen unmounts,
@@ -28,7 +27,6 @@ export default function MoonLayer({
   stage,
   isLoading,
   onExitDone,
-  sentinelRef,
   introSentinelRef,
   introMoonStartPos,
   moonReturning,
@@ -41,7 +39,6 @@ export default function MoonLayer({
   onExitDoneRef.current = onExitDone;
   const onReturnDoneRef = useRef(onReturnDone);
   onReturnDoneRef.current = onReturnDone;
-  const moonBasePos = useRef({ x: 0, y: 0 });
   // Guards against re-running the fly-in if setOrbiting(true) triggers a re-render
   // while the animation is already in progress.
   const flyInStarted = useRef(false);
@@ -105,50 +102,18 @@ export default function MoonLayer({
     return () => { clearTimeout(t0); clearTimeout(t1); };
   }, [isLoading, stage]);
 
-  // Transition to result position when stage becomes "result".
-  // Passive effect (not layout): runs after the whole tree's refs are attached,
-  // so the sibling ResultScreen's sentinelRef is guaranteed to be set. A layout
-  // effect here would read sentinelRef before ResultScreen attaches it (MoonLayer
-  // commits first), leaving the moon stuck at the loading-center position.
+  // Fade the moon out when result screen appears — it stays centered from loading.
   useEffect(() => {
     if (stage !== "result") return;
-
     const wrap = moonWrapRef.current;
-    const sentinel = sentinelRef.current;
-    if (!wrap || !sentinel) return;
-
-    const syncBase = () => {
-      const rect = sentinel.getBoundingClientRect();
-      moonBasePos.current = { x: rect.left, y: rect.top };
-    };
-
-    // Initial: animate from loading-center to the sentinel position.
+    if (!wrap) return;
     requestAnimationFrame(() => {
       const w = moonWrapRef.current;
       if (!w) return;
-      syncBase();
-      w.style.transition = "transform 0.5s ease-in-out";
-      w.style.transform = `translate(${moonBasePos.current.x}px, ${moonBasePos.current.y}px) scale(0.5)`;
+      w.style.transition = "opacity 0.4s ease-out";
+      w.style.opacity = "0";
     });
-
-    // Keep the moon glued above the text field when the layout shifts
-    // (window resize, or scrolling the result content). The moon is a fixed
-    // overlay, so it must re-read the sentinel's live position on these events.
-    const reposition = () => {
-      syncBase();
-      const w = moonWrapRef.current;
-      if (!w) return;
-      w.style.transition = "none";
-      w.style.transform = `translate(${moonBasePos.current.x}px, ${moonBasePos.current.y}px) scale(0.5)`;
-    };
-    window.addEventListener("resize", reposition);
-    window.addEventListener("scroll", reposition, true); // capture: catch inner scroll too
-
-    return () => {
-      window.removeEventListener("resize", reposition);
-      window.removeEventListener("scroll", reposition, true);
-    };
-  }, [stage, sentinelRef]);
+  }, [stage]);
 
   // Reset return: fly the moon from its result spot back to the intro moon,
   // then hand off to IntroScreen's own moon. Runs while stage is "intro" but the
@@ -162,6 +127,11 @@ export default function MoonLayer({
       onReturnDoneRef.current();
       return;
     }
+
+    // Snap moon back to loading center (faded out), restore it, then fly to intro moon
+    wrap.style.transition = "none";
+    wrap.style.opacity = "1";
+    wrap.style.transform = `translate(${window.innerWidth / 2 - 60}px, ${window.innerHeight / 2 - 60}px) scale(1)`;
 
     requestAnimationFrame(() => {
       const w = moonWrapRef.current;

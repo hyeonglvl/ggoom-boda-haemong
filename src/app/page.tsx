@@ -21,9 +21,10 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
   const [error, setError] = useState("");
+  // Passed to ResultScreen so the chat API knows the original dream text for follow-up questions
+  const [pendingDream, setPendingDream] = useState("");
   // true while the moon is flying from the result screen back to the intro moon
   const [moonReturning, setMoonReturning] = useState(false);
-  const moonSentinelRef = useRef<HTMLDivElement>(null);
   const introMoonRef = useRef<HTMLDivElement>(null);
   // Captured just before IntroScreen unmounts so MoonLayer can start its fly-in
   // from the exact intro moon position (including any parallax offset).
@@ -38,6 +39,8 @@ export default function Home() {
       introMoonStartPos.current = { x: rect.left, y: rect.top };
     }
 
+    // Save dream text so ResultScreen can pass it to /api/dream-chat for follow-up questions
+    setPendingDream(dream);
     setIsLoading(true);
     setError("");
     setMoonReturning(false); // cancel any in-flight reset return
@@ -79,13 +82,12 @@ export default function Home() {
   };
 
   return (
-    <div style={{ position: "fixed", inset: 0, background: "linear-gradient(135deg, #0a1628 0%, #122050 40%, #0d1f4a 65%, #091220 100%)" }}>
+    <div suppressHydrationWarning style={{ position: "fixed", inset: 0, background: "linear-gradient(135deg, #0a1628 0%, #122050 40%, #0d1f4a 65%, #091220 100%)" }}>
       <StarBackground />
       <MoonLayer
         stage={stage}
         isLoading={isLoading}
         onExitDone={handleLoadingExit}
-        sentinelRef={moonSentinelRef}
         introSentinelRef={introMoonRef}
         introMoonStartPos={introMoonStartPos}
         moonReturning={moonReturning}
@@ -101,12 +103,12 @@ export default function Home() {
       {stage === "loading" && <LoadingScreen isLoading={isLoading} />}
       {stage === "result" && result && (
         <ResultScreen
+          dream={pendingDream}
           summary={result.summary}
           analysis={result.analysis}
           goodElements={result.goodElements}
           badElements={result.badElements}
           onReset={handleReset}
-          moonSentinelRef={moonSentinelRef}
         />
       )}
       {error && (

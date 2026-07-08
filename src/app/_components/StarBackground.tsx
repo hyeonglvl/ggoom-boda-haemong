@@ -157,6 +157,7 @@ export default function StarBackground() {
         pointerEvents: "none",
         display: "block",
       }}
+      suppressHydrationWarning
     />
   );
 }

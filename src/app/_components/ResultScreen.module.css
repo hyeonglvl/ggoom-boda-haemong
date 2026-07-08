@@ -2,356 +2,234 @@
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 40px 16px;
-  width: 100%;
-  animation: contentFade 0.45s ease;
-}
-
-@keyframes contentFade {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-.captureWrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  max-width: 576px;
-}
-
-/* Sentinel: provides layout spacing + moon replica for html2canvas download.
-   The visual moon is rendered by MoonLayer (z-index 10) overlapping this.
-   Hidden on screen (so only MoonLayer's moon shows — no duplicate during the
-   loading→result fly-in); kept in layout so getBoundingClientRect still works.
-   handleDownload toggles it visible only while capturing. */
-.moonBlock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  visibility: hidden;
-}
-
-.moon {
-  width: 60px;
-  height: 60px;
-  position: relative;
-}
-
-.moonSvg {
-  width: 60px;
-  height: 60px;
-  display: block;
-}
-
-.resultField {
-  position: relative;
-  width: 100%;
-  max-width: 634px;
-  height: 360px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: rgba(232, 213, 163, 0.05);
-  border: 1px solid rgba(232, 213, 163, 0.2);
-  border-radius: 16px;
-  padding: 28px 24px;
-  opacity: 0;
-  animation: fadeIn 0.6s ease 0.3s forwards;
-  box-sizing: border-box;
 }
 
-.summary {
-  font-size: 1.15rem;
-  font-weight: normal;
-  color: #e8d5a3;
-  margin: 0 0 16px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid rgba(232, 213, 163, 0.15);
-  line-height: 1.6;
-  text-align: center;
-  font-family: 'JeongseonArirangHon', serif;
-}
-
-.analysis {
-  flex: 1;
-  min-height: 0;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.analysis::-webkit-scrollbar {
-  display: none;
-}
-
-.scrollFade {
+/* Hidden anchor so MoonLayer can find the moon's target position */
+.moonSentinel {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 64px;
-  background: linear-gradient(to bottom, transparent, rgba(10, 18, 40, 0.95));
-  border-radius: 0 0 16px 16px;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  visibility: hidden;
   pointer-events: none;
 }
 
-.paragraph {
+/* Header */
+.header {
+  position: relative;
+  z-index: 10;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px 16px;
+  flex-shrink: 0;
 }
 
-.paragraphTitle {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
+.resetBtn {
+  height: 36px;
+  padding: 0 18px;
+  border: 1px solid rgba(232, 213, 163, 0.3);
+  border-radius: 10px;
+  background: rgba(232, 213, 163, 0.06);
+  color: rgba(232, 213, 163, 0.7);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  font-family: 'GyeonggiMillenniumBackground', serif;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.resetBtn:hover {
+  background: rgba(232, 213, 163, 0.12);
+  border-color: rgba(232, 213, 163, 0.5);
   color: #e8d5a3;
-  font-family: 'JeongseonArirangHon', serif;
-  letter-spacing: 0.05em;
 }
 
-.paragraphContent {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.85;
-  color: rgba(232, 213, 163, 0.8);
-  font-family: 'GyeonggiMillenniumBackground', serif;
-}
-
-.elementsRow {
-  width: 100%;
-  max-width: 634px;
-  display: flex;
-  opacity: 0;
-  animation: fadeIn 0.6s ease 0.35s forwards;
-}
-
-.goodField,
-.badField {
+/* Scrollable chat area */
+.chat {
   flex: 1;
-  min-height: 115px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  padding: 18px 16px;
-  border: 1px solid rgba(232, 213, 163, 0.2);
-  box-sizing: border-box;
-}
-
-.goodField {
-  border-radius: 16px 0 0 16px;
-  border-right: none;
-  background: rgba(100, 200, 120, 0.05);
-}
-
-.badField {
-  border-radius: 0 16px 16px 0;
-  border-left: 1px solid rgba(232, 213, 163, 0.15);
-  background: rgba(200, 80, 80, 0.05);
-}
-
-.fieldLabel {
-  display: block;
-  font-size: 0.7rem;
-  color: rgba(232, 213, 163, 0.45);
-  letter-spacing: 0.08em;
-  margin-bottom: 8px;
-  font-family: 'GyeonggiMillenniumBackground', serif;
-}
-
-.fieldText {
-  flex: 1;
+  overflow-y: auto;
   min-height: 0;
-  overflow-y: visible;
-  margin: 0;
-  font-size: 0.82rem;
-  color: rgba(232, 213, 163, 0.85);
-  line-height: 1.8;
-  font-family: 'GyeonggiMillenniumBackground', serif;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 
-.fieldText::-webkit-scrollbar {
+.chat::-webkit-scrollbar {
   display: none;
 }
 
-.actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-  opacity: 0;
-  animation: fadeIn 0.6s ease 0.6s forwards;
-}
-
-.resetBtn,
-.feedbackBtn,
-.downloadBtn,
-.copyBtn {
-  height: 48px;
-  border: 1px solid rgba(232, 213, 163, 0.3);
-  border-radius: 10px;
-  background: rgba(232, 213, 163, 0.06);
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s, color 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.resetBtn,
-.feedbackBtn {
-  padding: 0 28px;
-  color: rgba(232, 213, 163, 0.7);
-  font-size: 0.85rem;
-  letter-spacing: 0.06em;
-  font-family: 'GyeonggiMillenniumBackground', serif;
-}
-
-.downloadBtn,
-.copyBtn {
-  width: 48px;
-  color: #e8d5a3;
-}
-
-.downloadBtn:hover,
-.copyBtn:hover {
-  background: rgba(232, 213, 163, 0.12);
-  border-color: rgba(232, 213, 163, 0.5);
-}
-
-.resetBtn:hover,
-.feedbackBtn:hover {
-  background: rgba(232, 213, 163, 0.12);
-  border-color: rgba(232, 213, 163, 0.5);
-  color: #e8d5a3;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.modalOverlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  animation: contentFade 0.2s ease;
-}
-
-.modal {
-  background: #0d1b3e;
-  border: 1px solid rgba(232, 213, 163, 0.25);
-  border-radius: 16px;
-  padding: 32px 28px;
-  width: min(360px, 90vw);
+.chatInner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.modalTitle {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: normal;
-  color: #e8d5a3;
-  font-family: 'JeongseonArirangHon', serif;
-  text-align: center;
-}
-
-.stars {
-  display: flex;
-  gap: 8px;
-}
-
-.star {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #e8d5a3;
-  padding: 0 2px;
-  line-height: 1;
-  transition: transform 0.1s;
-}
-
-.star:hover {
-  transform: scale(1.15);
-}
-
-.modalTextarea {
+  gap: 12px;
+  padding: 8px 16px 24px;
+  max-width: 680px;
+  margin: 0 auto;
   width: 100%;
-  min-height: 72px;
-  background: rgba(232, 213, 163, 0.05);
-  border: 1px solid rgba(232, 213, 163, 0.2);
-  border-radius: 10px;
-  padding: 12px 14px;
-  color: rgba(232, 213, 163, 0.85);
-  font-size: 0.875rem;
-  font-family: 'GyeonggiMillenniumBackground', serif;
-  resize: none;
-  outline: none;
   box-sizing: border-box;
 }
 
-.modalTextarea::placeholder {
-  color: rgba(232, 213, 163, 0.35);
+/* AI bubble */
+.aiBubbleWrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.modalSubmit {
-  padding: 12px 36px;
-  border: 1px solid rgba(232, 213, 163, 0.3);
-  border-radius: 10px;
-  background: rgba(232, 213, 163, 0.08);
-  color: rgba(232, 213, 163, 0.8);
+.aiIcon {
+  flex-shrink: 0;
+  font-size: 1.1rem;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+.aiBubble {
+  max-width: 82%;
+  background: rgba(232, 213, 163, 0.06);
+  border: 1px solid rgba(232, 213, 163, 0.18);
+  border-radius: 4px 16px 16px 16px;
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  line-height: 1.85;
+  color: rgba(232, 213, 163, 0.88);
+  font-family: 'GyeonggiMillenniumBackground', serif;
+  white-space: pre-line;
+}
+
+/* User bubble */
+.userBubbleWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userBubble {
+  max-width: 72%;
+  background: rgba(232, 213, 163, 0.12);
+  border: 1px solid rgba(232, 213, 163, 0.25);
+  border-radius: 16px 4px 16px 16px;
+  padding: 12px 16px;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: rgba(232, 213, 163, 0.9);
+  font-family: 'GyeonggiMillenniumBackground', serif;
+  white-space: pre-line;
+}
+
+/* Typing indicator */
+.typingBubble {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 18px;
+  min-width: 60px;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(232, 213, 163, 0.5);
+  animation: bounce 1.2s ease-in-out infinite;
+}
+
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.5; }
+  40% { transform: translateY(-6px); opacity: 1; }
+}
+
+/* Fade-in for each bubble */
+.fadeIn {
+  animation: bubbleFade 0.35s ease forwards;
+}
+
+@keyframes bubbleFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Input bar */
+.inputBar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  padding: 10px 16px 16px;
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.inputBarVisible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.input {
+  flex: 1;
+  min-height: 44px;
+  max-height: 120px;
+  resize: none;
+  background: rgba(232, 213, 163, 0.06);
+  border: 1px solid rgba(232, 213, 163, 0.25);
+  border-radius: 12px;
+  padding: 12px 14px;
+  color: rgba(232, 213, 163, 0.9);
   font-size: 0.875rem;
   font-family: 'GyeonggiMillenniumBackground', serif;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+  line-height: 1.5;
+  outline: none;
+  overflow-y: auto;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
 }
 
-.modalSubmit:hover:not(:disabled) {
+.input::placeholder {
+  color: rgba(232, 213, 163, 0.3);
+}
+
+.input:focus {
+  border-color: rgba(232, 213, 163, 0.45);
+}
+
+.input:disabled {
+  opacity: 0.5;
+}
+
+.sendBtn {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(232, 213, 163, 0.3);
+  border-radius: 12px;
+  background: rgba(232, 213, 163, 0.08);
+  color: rgba(232, 213, 163, 0.7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.sendBtn:hover:not(:disabled) {
   background: rgba(232, 213, 163, 0.15);
   border-color: rgba(232, 213, 163, 0.5);
   color: #e8d5a3;
 }
 
-.modalSubmit:disabled {
-  opacity: 0.4;
+.sendBtn:disabled {
+  opacity: 0.35;
   cursor: default;
-}
-
-.modalThanks {
-  margin: 0;
-  color: #e8d5a3;
-  font-size: 1rem;
-  font-family: 'JeongseonArirangHon', serif;
-  text-align: center;
-  padding: 12px 0;
 }

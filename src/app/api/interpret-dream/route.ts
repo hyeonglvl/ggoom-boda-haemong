@@ -108,7 +108,9 @@ Do NOT use Chinese characters, Japanese characters, or English in the response c
     const interpretationRule = `Interpret the user's dream by focusing only on what actually appears in the dream.
 Do NOT invent or assume elements that are not in the dream description.
 Briefly touch on the dreamer's current psychological state, but place greater emphasis on future predictions — what events, changes, or opportunities are coming, and when. Be specific and vivid about the future outlook.
+FUTURE PREDICTION VARIETY: Do NOT default to work/career/"프로젝트" outcomes unless the dream itself clearly involves work. Draw future predictions from the full range of real life — 연애·인간관계, 건강, 재물·금전, 가족, 우연한 만남, 이사·여행, 학업, 일상의 변화 등. Choose the domain(s) that best fit the dream's actual symbols, and vary it across different dreams rather than defaulting to the same theme every time.
 If the input does not appear to be a dream, refuse interpretation.
+NAMED PEOPLE IN DREAMS: When a specific named person appears in the dream, always incorporate who they are into the interpretation. If they are a well-known public figure (celebrity, actor, singer, athlete, politician, etc.), consider what they are famous for and what qualities they represent (beauty, talent, charisma, success, power, popularity, etc.) — these qualities are what the dreamer's subconscious is drawing on. If you are unsure whether the person is famous, treat their name as a person and interpret based on the dreamer's interaction with them and the feelings the encounter evoked.
 NATURAL KOREAN GRAMMAR: NEVER attach particles (는, 의, 가, 을, 이) directly to a verb's dictionary form ending in 다.
 BAD: "날다는", "날다의", "날다가", "먹다는", "보다의"
 GOOD: use the conjugated modifier form instead — "나는 것은", "나는 느낌은", "먹는 행위는", "바라보는 시선은"
@@ -129,8 +131,14 @@ ONLY bold NOUNS or NOUN PHRASES (e.g. **하늘**, **불**, **어머니**, **강�
 
 {
   "summary": "Start with '길몽' or '흉몽' or '평몽', then one-line core meaning (~25 Korean characters). Do NOT repeat the user's input.",
-  "analysis": ["단락 내용 (40-60 Korean characters). Bold key symbols with **단어**. ", ...],
-  5-6 string items. First 2-3 paragraphs: interpret the key symbols of this dream. Remaining 2-3 paragraphs: focus on future predictions — what will happen, what changes are coming, and any specific advice. Each paragraph should feel like a fortune reading, not just symbolic analysis.
+  "analysis": [
+    "keyword item(s) FIRST: \"**단어**: 짧은 의미 (20-30 Korean characters)\" — one line per key symbol",
+    "then paragraph item(s): \"단락 내용 (40-60 Korean characters). Bold key symbols with **단어**.\"",
+    ...
+  ],
+  7-8 string items total, in this exact order:
+  STEP 1 (keyword items, 2-3 items): Judge which symbolic elements in the dream are the MOST important (do not list every object — pick only the 2-3 that carry the strongest symbolic weight). For each, write ONE short line in the form "**단어**: 짧은 의미" giving just its core symbolic meaning, 20-30 Korean characters, no more.
+  STEP 2 (paragraph items, 4-5 items): AFTER the keyword items, continue with full paragraphs (40-60 Korean characters each). First 1-2 paragraphs: deeper interpretation weaving the key symbols together with the dreamer's current psychological state. Remaining 2-3 paragraphs: focus on future predictions — what will happen, what changes are coming, and any specific advice. Each paragraph should feel like a fortune reading, not just symbolic analysis.
   "goodElements": "2 sentences: one about a fortunate sign in the dream, one about what good event or change it predicts for the dreamer's near future. Bold key nouns.",
   "badElements": "2 sentences: one about a cautionary sign in the dream, one about what risk or challenge it warns of ahead. Bold key nouns."
 }
