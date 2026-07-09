@@ -247,6 +247,15 @@
   pointer-events: auto;
 }
 
+.privacyNote {
+  margin: 0;
+  padding: 10px 20px 0;
+  font-family: 'GyeonggiMillenniumBackground', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: rgba(232, 213, 163, 0.4);
+}
+
 .dreamInput {
   width: 100%;
   background: transparent;

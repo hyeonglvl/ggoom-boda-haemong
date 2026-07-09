@@ -1,327 +1,229 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./ResultScreen.module.css";
 
+type Bubble = { role: "ai" | "user"; text: string };
+
 interface Props {
+  dream: string;
   summary: string;
   analysis: string[];
   goodElements?: string;
   badElements?: string;
   onReset: () => void;
-  moonSentinelRef: React.RefObject<HTMLDivElement | null>;
 }
 
 export default function ResultScreen({
+  dream,
   summary,
   analysis,
   goodElements,
   badElements,
   onReset,
-  moonSentinelRef,
 }: Props) {
-  const captureRef = useRef<HTMLDivElement>(null);
-  const analysisRef = useRef<HTMLDivElement>(null);
-  const [copied, setCopied] = useState(false);
-  const [hasMore, setHasMore] = useState(false);
+  const buildInitialBubbles = (): Bubble[] => {
+    const b: Bubble[] = [];
+    if (dream.trim()) b.push({ role: "user", text: dream });
+    b.push({ role: "ai", text: summary });
+    if (analysis.length > 1) b.push({ role: "ai", text: analysis.slice(0, -1).join("\n\n") });
+    if (analysis.length > 0) b.push({ role: "ai", text: analysis[analysis.length - 1] });
+    const elements: string[] = [];
+    if (goodElements) elements.push(`✦ 좋은요소\n${goodElements}`);
+    if (badElements) elements.push(`✦ 나쁜요소\n${badElements}`);
+    if (elements.length > 0) b.push({ role: "ai", text: elements.join("\n\n") });
+    return b;
+  };
 
-  useEffect(() => {
-    const el = analysisRef.current;
-    if (!el) return;
-    const check = () => setHasMore(el.scrollHeight > el.clientHeight && el.scrollTop + el.clientHeight < el.scrollHeight - 4);
-    check();
-    el.addEventListener("scroll", check);
-    const ro = new ResizeObserver(check);
-    ro.observe(el);
-    return () => { el.removeEventListener("scroll", check); ro.disconnect(); };
-  }, [analysis]);
+  const initialBubbles = useRef<Bubble[]>(buildInitialBubbles());
+  const [revealedCount, setRevealedCount] = useState(0);
+  const [chatBubbles, setChatBubbles] = useState<Bubble[]>([]);
+  const [inputActive, setInputActive] = useState(false);
+  const [isAiTyping, setIsAiTyping] = useState(false);
+  const [inputText, setInputText] = useState("");
+  const [conversationHistory, setConversationHistory] = useState<{ role: string; content: string }[]>([]);
 
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [rating, setRating] = useState(0);
-  const [hoverRating, setHoverRating] = useState(0);
-  const [comment, setComment] = useState("");
-  const [feedbackSent, setFeedbackSent] = useState(false);
-  const [feedbackLoading, setFeedbackLoading] = useState(false);
+  const chatRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
+  const followUpFetched = useRef(false);
 
   const parseBold = (text: string): React.ReactNode[] =>
     text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
       i % 2 === 1 ? <strong key={i}>{part}</strong> : part
     );
 
-  const handleCopy = async () => {
-    const analysisText = analysis.map(p => p.replace(/\*\*/g, "")).join("\n\n");
-    const text = `${summary}\n\n${analysisText}\n\n좋은요소: ${goodElements ?? ""}\n\n나쁜요소: ${badElements ?? ""}`;
-    try {
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(text);
-      } else {
-        // Fallback for non-secure contexts (e.g. http://192.168.x.x on mobile)
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        ta.style.position = "fixed";
-        ta.style.opacity = "0";
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
-      }
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 1500);
-    } catch (err) {
-      console.error("복사 실패:", err);
-    }
-  };
+  // Reveal initial bubbles one by one
+  useEffect(() => {
+    if (revealedCount >= initialBubbles.current.length) return;
+    const delay = revealedCount === 0 ? 300 : 500;
+    const t = setTimeout(() => setRevealedCount(v => v + 1), delay);
+    return () => clearTimeout(t);
+  }, [revealedCount]);
 
-  const handleFeedbackSubmit = async () => {
-    if (!rating || feedbackLoading) return;
-    setFeedbackLoading(true);
+  // Auto-scroll on follow-up conversation activity only — not while the
+  // initial result bubbles are being revealed, so the user can read from
+  // the top without being pulled down.
+  useEffect(() => {
+    chatRef.current?.scrollTo({ top: chatRef.current.scrollHeight, behavior: "smooth" });
+  }, [chatBubbles, isAiTyping]);
+
+  // Fetch follow-up question once all initial bubbles are revealed
+  useEffect(() => {
+    if (revealedCount < initialBubbles.current.length) return;
+    if (followUpFetched.current) return;
+    followUpFetched.current = true;
+
+    const fetchFollowUp = async () => {
+      setIsAiTyping(true);
+      try {
+        const res = await fetch("/api/dream-chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            dream,
+            interpretation: { summary, analysis, goodElements, badElements },
+            messages: [],
+          }),
+        });
+        const data = await res.json();
+        if (data.reply) {
+          setChatBubbles([{ role: "ai", text: data.reply }]);
+          setConversationHistory([{ role: "assistant", content: data.reply }]);
+        }
+      } catch {
+        // Skip follow-up on error, still activate input
+      } finally {
+        setIsAiTyping(false);
+        setInputActive(true);
+      }
+    };
+
+    fetchFollowUp();
+  }, [revealedCount, dream, summary, analysis, goodElements, badElements]);
+
+  const handleSend = useCallback(async () => {
+    const text = inputText.trim();
+    if (!text || isAiTyping) return;
+
+    setInputText("");
+    if (inputRef.current) inputRef.current.style.height = "auto";
+
+    const userBubble: Bubble = { role: "user", text };
+    const newHistory = [...conversationHistory, { role: "user", content: text }];
+    setChatBubbles(prev => [...prev, userBubble]);
+    setConversationHistory(newHistory);
+
+    setIsAiTyping(true);
     try {
-      await fetch("/api/feedback", {
+      const res = await fetch("/api/dream-chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ rating, comment }),
+        body: JSON.stringify({
+          dream,
+          interpretation: { summary, analysis, goodElements, badElements },
+          messages: newHistory,
+        }),
       });
-      setFeedbackSent(true);
+      const data = await res.json();
+      const reply = data.reply || "죄송합니다, 오류가 발생했습니다.";
+      setChatBubbles(prev => [...prev, { role: "ai", text: reply }]);
+      setConversationHistory([...newHistory, { role: "assistant", content: reply }]);
+    } catch {
+      setChatBubbles(prev => [...prev, { role: "ai", text: "죄송합니다, 오류가 발생했습니다." }]);
     } finally {
-      setFeedbackLoading(false);
+      setIsAiTyping(false);
+    }
+  }, [inputText, isAiTyping, conversationHistory, dream, summary, analysis, goodElements, badElements]);
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
     }
   };
 
-  const handleDownload = async () => {
-    if (!captureRef.current) return;
-    const html2canvas = (await import("html2canvas")).default;
-    const el = captureRef.current;
-    const sentinel = moonSentinelRef.current;
-
-    if (sentinel) sentinel.style.visibility = "visible";
-
-    const clone = el.cloneNode(true) as HTMLDivElement;
-    clone.style.cssText = `position:fixed;left:-9999px;top:0;width:${el.offsetWidth}px;pointer-events:none;`;
-    document.body.appendChild(clone);
-
-    const fix = (cls: string, overrides: Partial<CSSStyleDeclaration>) =>
-      clone.querySelectorAll(`.${cls}`).forEach(e => Object.assign((e as HTMLElement).style, overrides));
-
-    fix(styles.resultField, { animation: "none", opacity: "1", transform: "none", height: "auto", overflow: "visible" });
-    fix(styles.analysis,    { animation: "none", opacity: "1", overflow: "visible", flex: "none" });
-    fix(styles.elementsRow, { animation: "none", opacity: "1", transform: "none" });
-    fix(styles.goodField,   { height: "auto", overflow: "visible" });
-    fix(styles.badField,    { height: "auto", overflow: "visible" });
-    fix(styles.fieldText,   { overflow: "visible" });
-
-    let contentCanvas;
-    try {
-      contentCanvas = await html2canvas(clone, {
-        backgroundColor: null,
-        scale: 2,
-        width: clone.offsetWidth,
-        height: clone.offsetHeight,
-        x: 0,
-        y: 0,
-      });
-    } finally {
-      document.body.removeChild(clone);
-      if (sentinel) sentinel.style.visibility = "";
-    }
-
-    const PAD = 96; // canvas px (= 48 CSS px at scale 2)
-    const finalW = contentCanvas.width + PAD * 2;
-    const finalH = contentCanvas.height + PAD * 2;
-
-    const final = document.createElement("canvas");
-    final.width = finalW;
-    final.height = finalH;
-    const ctx = final.getContext("2d")!;
-
-    // Diagonal night-sky gradient (matches page background)
-    const grad = ctx.createLinearGradient(0, 0, finalW, finalH);
-    grad.addColorStop(0,    "#0a1628");
-    grad.addColorStop(0.4,  "#122050");
-    grad.addColorStop(0.65, "#0d1f4a");
-    grad.addColorStop(1,    "#091220");
-    ctx.fillStyle = grad;
-    ctx.fillRect(0, 0, finalW, finalH);
-
-    // Stars
-    const STARS = [
-      [0.05,0.08,4.4,0.7],[0.12,0.22,3.2,0.45],[0.19,0.05,4.0,0.6],
-      [0.28,0.15,2.4,0.35],[0.35,0.03,5.2,0.8],[0.42,0.18,2.8,0.4],
-      [0.5,0.07,3.6,0.55],[0.58,0.25,2.4,0.3],[0.65,0.11,4.4,0.65],
-      [0.72,0.04,3.2,0.5],[0.8,0.19,4.0,0.6],[0.88,0.09,2.8,0.4],
-      [0.94,0.23,4.8,0.75],[0.03,0.45,3.6,0.5],[0.15,0.6,2.4,0.3],
-      [0.25,0.38,3.2,0.45],[0.38,0.55,2.8,0.35],[0.48,0.42,4.4,0.7],
-      [0.6,0.5,2.4,0.3],[0.7,0.35,3.6,0.55],[0.82,0.48,2.8,0.4],
-      [0.92,0.4,4.0,0.6],[0.07,0.75,3.2,0.45],[0.18,0.88,2.4,0.3],
-      [0.3,0.72,4.8,0.7],[0.44,0.85,2.8,0.4],[0.55,0.78,3.6,0.5],
-      [0.68,0.92,2.4,0.3],[0.78,0.68,4.0,0.6],[0.9,0.82,3.2,0.45],
-      [0.96,0.55,2.8,0.35],[0.02,0.92,3.6,0.5],[0.22,0.5,2.4,0.3],
-      [0.45,0.65,3.2,0.45],[0.62,0.72,4.4,0.65],[0.85,0.3,2.8,0.4],
-      [0.1,0.35,4.0,0.6],[0.33,0.28,2.4,0.3],[0.75,0.6,3.6,0.5],
-    ];
-    for (const [rx, ry, r, a] of STARS) {
-      ctx.beginPath();
-      ctx.arc(rx * finalW, ry * finalH, r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(232,213,163,${a})`;
-      ctx.fill();
-    }
-
-    // Content on top
-    ctx.drawImage(contentCanvas, PAD, PAD);
-
-    const link = document.createElement("a");
-    link.download = "해몽결과.png";
-    link.href = final.toDataURL("image/png");
-    link.click();
+  const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setInputText(e.target.value);
+    e.target.style.height = "auto";
+    e.target.style.height = `${Math.min(e.target.scrollHeight, 120)}px`;
   };
 
   return (
     <div className={styles.wrap}>
-      <div className={styles.content}>
-        <div ref={captureRef} className={styles.captureWrap}>
-          {/* Sentinel: positions MoonLayer moon + provides moon replica for download */}
-          <div ref={moonSentinelRef} className={styles.moonBlock}>
-            <div className={styles.moon}>
-              <svg className={styles.moonSvg} viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <mask id="result-crescent">
-                    <circle cx="30" cy="30" r="30" fill="white" />
-                    <circle cx="34" cy="18" r="24" fill="black" />
-                  </mask>
-                </defs>
-                <circle cx="30" cy="30" r="30" fill="#e8d5a3" mask="url(#result-crescent)" />
-              </svg>
-            </div>
-          </div>
-          <div className={styles.resultField}>
-            <h3 className={styles.summary}>{summary}</h3>
-            <div ref={analysisRef} className={styles.analysis}>
-              {analysis.map((para, i) => (
-                <p key={i} className={styles.paragraphContent}>{parseBold(para)}</p>
-              ))}
-            </div>
-            {hasMore && <div className={styles.scrollFade} />}
-          </div>
-          <div className={styles.elementsRow}>
-            <div className={styles.goodField}>
-              <span className={styles.fieldLabel}>좋은요소</span>
-              <p className={styles.fieldText}>{goodElements ? parseBold(goodElements) : "—"}</p>
-            </div>
-            <div className={styles.badField}>
-              <span className={styles.fieldLabel}>나쁜요소</span>
-              <p className={styles.fieldText}>{badElements ? parseBold(badElements) : "—"}</p>
-            </div>
-          </div>
-        </div>
+      {/* Header */}
+      <div className={styles.header}>
+        <button className={styles.resetBtn} onClick={onReset}>처음으로</button>
+      </div>
 
-        <div className={styles.actions}>
-          <button className={styles.resetBtn} onClick={onReset}>
-            처음으로
-          </button>
-          <button
-            className={styles.feedbackBtn}
-            type="button"
-            onClick={() => setShowFeedback(true)}
-          >
-            의견 보내기
-          </button>
-          <button
-            className={styles.copyBtn}
-            type="button"
-            onClick={handleCopy}
-            aria-label="복사하기"
-          >
-            {copied ? (
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M3 8.5l3.2 3.2L13 4.8"
-                  stroke="#e8d5a3"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+      {/* Chat scroll area */}
+      <div ref={chatRef} className={styles.chat}>
+        <div className={styles.chatInner}>
+          {/* Initial bubbles revealed one by one */}
+          {initialBubbles.current.slice(0, revealedCount).map((bubble, i) => (
+            bubble.role === "ai" ? (
+              <div key={`init-${i}`} className={`${styles.aiBubbleWrap} ${styles.fadeIn}`}>
+                <span className={styles.aiIcon}>🌙</span>
+                <div className={styles.aiBubble}>
+                  {parseBold(bubble.text)}
+                </div>
+              </div>
             ) : (
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <rect
-                  x="5.5"
-                  y="5.5"
-                  width="8"
-                  height="8"
-                  rx="1.5"
-                  stroke="#e8d5a3"
-                  strokeWidth="1.5"
-                />
-                <path
-                  d="M3.3 10.5H3A1.5 1.5 0 0 1 1.5 9V3A1.5 1.5 0 0 1 3 1.5h6A1.5 1.5 0 0 1 10.5 3v.3"
-                  stroke="#e8d5a3"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            )}
-          </button>
-          <button
-            className={styles.downloadBtn}
-            type="button"
-            onClick={handleDownload}
-            aria-label="이미지 저장"
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path
-                d="M8 2v8M5 7l3 3 3-3M3 13h10"
-                stroke="#e8d5a3"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+              <div key={`init-${i}`} className={`${styles.userBubbleWrap} ${styles.fadeIn}`}>
+                <div className={styles.userBubble}>{bubble.text}</div>
+              </div>
+            )
+          ))}
+
+          {/* Conversation bubbles */}
+          {chatBubbles.map((bubble, i) => (
+            bubble.role === "ai" ? (
+              <div key={`chat-${i}`} className={`${styles.aiBubbleWrap} ${styles.fadeIn}`}>
+                <span className={styles.aiIcon}>🌙</span>
+                <div className={styles.aiBubble}>{parseBold(bubble.text)}</div>
+              </div>
+            ) : (
+              <div key={`chat-${i}`} className={`${styles.userBubbleWrap} ${styles.fadeIn}`}>
+                <div className={styles.userBubble}>{bubble.text}</div>
+              </div>
+            )
+          ))}
+
+          {/* Typing indicator */}
+          {isAiTyping && (
+            <div className={`${styles.aiBubbleWrap} ${styles.fadeIn}`}>
+              <span className={styles.aiIcon}>🌙</span>
+              <div className={`${styles.aiBubble} ${styles.typingBubble}`}>
+                <span className={styles.dot} />
+                <span className={styles.dot} />
+                <span className={styles.dot} />
+              </div>
+            </div>
+          )}
         </div>
       </div>
-      {showFeedback && (
-        <div className={styles.modalOverlay} onClick={() => setShowFeedback(false)}>
-          <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-            {feedbackSent ? (
-              <p className={styles.modalThanks}>의견을 보내주셔서 감사합니다 🙏</p>
-            ) : (
-              <>
-                <h4 className={styles.modalTitle}>해몽이 마음에 드셨나요?</h4>
-                <div className={styles.stars}>
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <button
-                      key={star}
-                      className={styles.star}
-                      type="button"
-                      onMouseEnter={() => setHoverRating(star)}
-                      onMouseLeave={() => setHoverRating(0)}
-                      onClick={() => setRating(star)}
-                      aria-label={`${star}점`}
-                    >
-                      {star <= (hoverRating || rating) ? "★" : "☆"}
-                    </button>
-                  ))}
-                </div>
-                <textarea
-                  className={styles.modalTextarea}
-                  placeholder="한줄 의견 (선택사항)"
-                  value={comment}
-                  onChange={(e) => setComment(e.target.value)}
-                  maxLength={200}
-                />
-                <button
-                  className={styles.modalSubmit}
-                  type="button"
-                  onClick={handleFeedbackSubmit}
-                  disabled={!rating || feedbackLoading}
-                >
-                  {feedbackLoading ? "보내는 중..." : "보내기"}
-                </button>
-              </>
-            )}
-          </div>
-        </div>
-      )}
+
+      {/* Input bar */}
+      <div className={`${styles.inputBar} ${inputActive ? styles.inputBarVisible : ""}`}>
+        <textarea
+          ref={inputRef}
+          className={styles.input}
+          value={inputText}
+          onChange={handleInputChange}
+          onKeyDown={handleKeyDown}
+          placeholder="답변하거나 더 궁금한 점을 물어보세요..."
+          rows={1}
+          disabled={isAiTyping}
+        />
+        <button
+          className={styles.sendBtn}
+          onClick={handleSend}
+          disabled={!inputText.trim() || isAiTyping}
+        >
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M3 15L15 9L3 3V7.5L11 9L3 10.5V15Z" fill="currentColor" />
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }
