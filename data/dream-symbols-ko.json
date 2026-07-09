@@ -1,0 +1,4942 @@
+[
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天門開貴人薦引",
+    "interpretation_ko": "하늘 문이 열리는 꿈은 귀한 분이 나서서 이끌어주는 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天光照主疾病除",
+    "interpretation_ko": "하늘의 빛이 몸을 비추는 꿈은 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天晴雨散百憂去",
+    "interpretation_ko": "하늘이 맑아지고 비가 그치는 꿈은 온갖 걱정이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天明婦人生貴子",
+    "interpretation_ko": "하늘이 밝아지는 꿈을 꾸면 부인이 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天門赤主有大起",
+    "interpretation_ko": "하늘 문이 붉게 물드는 꿈은 나라에 큰 소요가 일어날 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "仰面向天大富貴",
+    "interpretation_ko": "하늘을 우러러보는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "乘龍上天大主貴",
+    "interpretation_ko": "용을 타고 하늘로 오르는 꿈은 큰 귀한 신분에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "上天求妻兒女貴",
+    "interpretation_ko": "하늘에 올라가 아내를 구하는 꿈은 자식이 귀하게 될 좋은 징조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天上取物位王侯",
+    "interpretation_ko": "하늘에서 물건을 얻는 꿈은 높은 지위에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "飛上天富貴大吉",
+    "interpretation_ko": "하늘로 날아오르는 꿈은 부귀를 누리게 되는 매우 길한 꿈입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "登天上屋得高官",
+    "interpretation_ko": "하늘에 오르거나 지붕 위로 올라가는 꿈은 높은 벼슬을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天裂有分國之憂",
+    "interpretation_ko": "하늘이 갈라지는 꿈은 나라가 나뉠까 걱정되는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天星明主公卿至",
+    "interpretation_ko": "하늘의 별이 밝게 빛나는 꿈은 귀한 손님이나 높은 사람을 만나게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天愈鐃益壽命吉",
+    "interpretation_ko": "하늘이 점점 더 맑고 풍요로워지는 꿈은 수명이 늘어난다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "渡天河主有所吉",
+    "interpretation_ko": "은하수를 건너는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天地富所求皆得",
+    "interpretation_ko": "하늘과 땅이 풍요로워 보이는 꿈은 원하는 것을 모두 이루게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "天公使有大吉祥",
+    "interpretation_ko": "하늘의 사자를 만나는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月初出家道昌",
+    "interpretation_ko": "해와 달이 막 떠오르는 꿈은 집안이 번창한다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月照身得重位",
+    "interpretation_ko": "해와 달이 몸을 비추는 꿈은 중요한 자리에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月落憂沒父母",
+    "interpretation_ko": "해와 달이 떨어지는 꿈은 부모에게 안 좋은 일이 생길까 걱정되는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月昏暗孕婦吉",
+    "interpretation_ko": "해와 달이 어두워지는 꿈은 임신부에게는 오히려 좋은 징조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月欲出有官職",
+    "interpretation_ko": "해와 달이 떠오르려는 꿈은 관직을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月合會妻有子",
+    "interpretation_ko": "해와 달이 하나로 만나는 꿈은 아내가 자식을 갖게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日月啣山奴欺主",
+    "interpretation_ko": "해와 달이 산에 걸리는 꿈은 아랫사람이 주인을 속이게 된다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "負抱日月貴侯王",
+    "interpretation_ko": "해와 달을 품에 안는 꿈은 귀한 신분에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "吞日月當生貴子",
+    "interpretation_ko": "해와 달을 삼키는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "禮拜日月大吉昌",
+    "interpretation_ko": "해와 달에 절을 올리는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日光入屋官位至",
+    "interpretation_ko": "햇빛이 집 안으로 들어오는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日初出無雲大吉",
+    "interpretation_ko": "구름 한 점 없이 해가 떠오르는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日出有光有好事",
+    "interpretation_ko": "해가 밝은 빛을 내며 떠오르는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雲開日出凶事散",
+    "interpretation_ko": "구름이 걷히고 해가 나오는 꿈은 나쁜 일이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "日入懷貴子月女",
+    "interpretation_ko": "해가 품 안으로 들어오는 꿈은 귀한 아들을, 달이 들어오면 딸을 낳는다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "拜星月燒香大吉",
+    "interpretation_ko": "별과 달을 향해 향을 피우고 절하는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雲忽遮日有陰私",
+    "interpretation_ko": "구름이 갑자기 해를 가리는 꿈은 남모르는 은밀한 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "星入懷主生貴子",
+    "interpretation_ko": "별이 품 안으로 들어오는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "星落有病及官事",
+    "interpretation_ko": "별이 떨어지는 꿈은 병을 앓거나 관청의 일로 곤란을 겪게 된다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "星列行主添奴婢",
+    "interpretation_ko": "별들이 줄지어 늘어선 꿈은 집에 일하는 사람이 늘어난다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "持執星宿大富貴",
+    "interpretation_ko": "별을 손에 쥐는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "流星不落主移居",
+    "interpretation_ko": "별똥별이 떨어지지 않고 흐르는 꿈은 이사를 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "巡天摩星位公卿",
+    "interpretation_ko": "하늘을 돌아다니며 별을 어루만지는 꿈은 높은 벼슬에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雲起四方交易吉",
+    "interpretation_ko": "사방에서 구름이 피어오르는 꿈은 거래나 장사가 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "五色雲主大吉昌",
+    "interpretation_ko": "오색구름을 보는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雲赤白吉青黑凶",
+    "interpretation_ko": "구름이 붉거나 흰색이면 좋은 일이, 푸르거나 검은색이면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "見浮雲作事不成",
+    "interpretation_ko": "뜬구름을 보는 꿈은 하려는 일이 잘 이루어지지 않는다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雲霧遮事大吉利",
+    "interpretation_ko": "안개와 구름이 자욱하게 뒤덮이는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "黑雲至地時氣病",
+    "interpretation_ko": "검은 구름이 땅까지 내려오는 꿈은 계절병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "霜雪降主事不成",
+    "interpretation_ko": "서리와 눈이 내리는 꿈은 하려는 일이 이루어지지 않는다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雪下及時大吉利",
+    "interpretation_ko": "때맞춰 눈이 내리는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雪落身上萬事成",
+    "interpretation_ko": "눈이 몸 위로 내려앉는 꿈은 하는 일마다 잘 이루어진다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雪不沾身主孝服",
+    "interpretation_ko": "눈이 몸에 닿지 않는 꿈은 상을 당하게 된다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雪落家庭主喪事",
+    "interpretation_ko": "눈이 집 마당에 내리는 꿈은 초상이 날 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "陰雨晦暗主凶事",
+    "interpretation_ko": "날이 흐리고 비가 내려 어두운 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "行路逢雨有酒食",
+    "interpretation_ko": "길을 가다 비를 만나는 꿈은 술과 음식을 대접받는 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雷霆作事官位至",
+    "interpretation_ko": "천둥이 치는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雷聲恐怕移居吉",
+    "interpretation_ko": "천둥소리에 놀라는 꿈은 이사를 하면 좋다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "雷從地震主志遂",
+    "interpretation_ko": "천둥과 함께 땅이 흔들리는 꿈은 뜻한 바를 이루게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "身被霹靂主富貴",
+    "interpretation_ko": "몸이 벼락을 맞는 꿈은 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "電光照身有吉慶",
+    "interpretation_ko": "번갯불이 몸을 비추는 꿈은 경사스러운 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "赤虹見吉黑虹凶",
+    "interpretation_ko": "붉은 무지개를 보면 좋은 일이, 검은 무지개를 보면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "霞滿天百事歡悅",
+    "interpretation_ko": "노을이 하늘 가득 물드는 꿈은 모든 일이 즐겁고 기쁘게 풀린다는 길조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "狂風大雨人死亡",
+    "interpretation_ko": "거센 바람과 폭우가 몰아치는 꿈은 사람이 목숨을 잃을 만큼 나쁜 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "風吹人衣主疾病",
+    "interpretation_ko": "바람이 옷을 스치는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "忽大風國有號令",
+    "interpretation_ko": "갑자기 큰 바람이 부는 꿈은 나라에 큰 명령이나 포고가 내려진다는 뜻입니다"
+  },
+  {
+    "category": "天地日月星辰",
+    "source_zh": "風如吼主遠信至",
+    "interpretation_ko": "바람이 짐승처럼 울부짖는 꿈은 멀리서 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "地動主遷官位吉",
+    "interpretation_ko": "땅이 흔들리는 꿈은 벼슬자리가 바뀌는 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "地裂主疾病大凶",
+    "interpretation_ko": "땅이 갈라지는 꿈은 큰 병을 앓게 된다는 매우 나쁜 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "修平田地大吉昌",
+    "interpretation_ko": "논밭을 고르고 정리하는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "地高下不平主病",
+    "interpretation_ko": "땅이 울퉁불퉁하고 고르지 못한 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "臥於石上主大吉",
+    "interpretation_ko": "바위 위에 누워 있는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "地中黑氣上主凶",
+    "interpretation_ko": "땅에서 검은 기운이 올라오는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "運石入家主富貴",
+    "interpretation_ko": "돌을 집으로 옮겨오는 꿈은 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "石上得利祿大吉",
+    "interpretation_ko": "바위 위에서 재물을 얻는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "盤石安穩無憂疑",
+    "interpretation_ko": "너럭바위처럼 안정된 꿈은 걱정과 의심이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "登岩抱石官職遷",
+    "interpretation_ko": "바위 벼랑에 올라 돌을 안는 꿈은 벼슬이 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "手弄小石生貴子",
+    "interpretation_ko": "손으로 작은 돌을 만지작거리는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "身入土中百事吉",
+    "interpretation_ko": "몸이 흙 속으로 들어가는 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "自身取土被恥辱",
+    "interpretation_ko": "스스로 흙을 파내는 꿈은 부끄러운 일을 당하게 된다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "昇山落地主失位",
+    "interpretation_ko": "산에 올랐다가 땅으로 떨어지는 꿈은 지위를 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "上山恐怕祿位至",
+    "interpretation_ko": "무서워하며 산을 오르는 꿈은 오히려 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "上山毀壞主凶惡",
+    "interpretation_ko": "오르던 산이 무너지는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "遊看高山春夏吉",
+    "interpretation_ko": "높은 산을 유람하며 구경하는 꿈은 봄과 여름에 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "行走上坡病思除",
+    "interpretation_ko": "오르막길을 걸어 올라가는 꿈은 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "居住高山有喜事",
+    "interpretation_ko": "높은 산에서 사는 꿈은 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "山行得財有福緣",
+    "interpretation_ko": "산길을 걸으며 재물을 얻는 꿈은 복된 인연이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "抱物上山孕貴子",
+    "interpretation_ko": "물건을 안고 산에 오르는 꿈은 귀한 자식을 잉태하게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "山中農稼衣食豐",
+    "interpretation_ko": "산속에서 농사를 짓는 꿈은 먹을 것과 입을 것이 풍족해진다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "枯木再發子孫興",
+    "interpretation_ko": "말라죽은 나무에서 다시 싹이 트는 꿈은 자손이 번성한다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "堂上地陷主母憂",
+    "interpretation_ko": "집 마당이 꺼지는 꿈은 어머니에게 걱정스러운 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "園林茂盛大吉利",
+    "interpretation_ko": "정원과 숲이 무성하게 우거지는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "樹木枯死宅不安",
+    "interpretation_ko": "나무가 시들어 죽는 꿈은 집안이 편안하지 못하게 된다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "林中坐臥病欲痊",
+    "interpretation_ko": "숲속에 앉거나 누워 있는 꿈은 앓던 병이 나으려 한다는 좋은 징조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "樹木凋零主人凶",
+    "interpretation_ko": "나무가 시들어 잎이 떨어지는 꿈은 그 사람에게 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "林中樹生添貴子",
+    "interpretation_ko": "숲속에서 나무가 새로 자라나는 꿈은 귀한 자식을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "種植樹木大吉昌",
+    "interpretation_ko": "나무를 심는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "登大樹名利顯揚",
+    "interpretation_ko": "큰 나무에 올라가는 꿈은 명예와 재물을 크게 떨치게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "上樹忽折有死傷",
+    "interpretation_ko": "나무에 올랐다가 가지가 갑자기 부러지는 꿈은 다치거나 목숨을 잃을 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "與人分花主分散",
+    "interpretation_ko": "남과 꽃을 나누어 갖는 꿈은 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "枯木開花子孫興",
+    "interpretation_ko": "말라죽은 나무에 꽃이 피는 꿈은 자손이 번성한다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "大樹落人屋上吉",
+    "interpretation_ko": "큰 나무가 집 위로 쓰러지는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "立樹下貴人庇蔭",
+    "interpretation_ko": "나무 아래에 서 있는 꿈은 귀한 분의 도움과 보살핌을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "樹生堂上父母憂",
+    "interpretation_ko": "집 마당에 나무가 자라나는 꿈은 부모에게 걱정스러운 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "大樹忽折主凶惡",
+    "interpretation_ko": "큰 나무가 갑자기 부러지는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "擔木來家得財喜",
+    "interpretation_ko": "나무를 짊어지고 집으로 돌아오는 꿈은 재물을 얻는 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "砍伐大樹多得財",
+    "interpretation_ko": "큰 나무를 베어내는 꿈은 많은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "草木茂盛家道興",
+    "interpretation_ko": "풀과 나무가 무성하게 자라는 꿈은 집안이 번창한다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "門中生果樹有子",
+    "interpretation_ko": "대문 안에 과일나무가 자라나는 꿈은 자식을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "松生腹上位三公",
+    "interpretation_ko": "소나무가 배 위에서 자라나는 꿈은 아주 높은 벼슬에 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "家中生松事轉豐",
+    "interpretation_ko": "집 안에 소나무가 자라나는 꿈은 집안 형편이 넉넉해진다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "家中生柏多吉利",
+    "interpretation_ko": "집 안에 잣나무가 자라나는 꿈은 여러모로 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "庭前竹木喜重重",
+    "interpretation_ko": "마당 앞에 대나무와 나무가 자라나는 꿈은 기쁜 일이 겹쳐서 생긴다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "楓生屋上百事遂",
+    "interpretation_ko": "지붕 위에 단풍나무가 자라나는 꿈은 하는 일마다 잘 이루어진다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "蘭生庭前主添孫",
+    "interpretation_ko": "마당 앞에 난초가 자라나는 꿈은 손주를 보게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "果林中行主得財",
+    "interpretation_ko": "과일나무 숲속을 거니는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "入菜園中大發財",
+    "interpretation_ko": "채소밭에 들어가는 꿈은 큰 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "桑生井上主有憂",
+    "interpretation_ko": "우물가에 뽕나무가 자라나는 꿈은 걱정스러운 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "果樹多熟子孫安",
+    "interpretation_ko": "과일나무에 열매가 가득 익는 꿈은 자손이 평안해진다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "折筍到家女有子",
+    "interpretation_ko": "죽순을 꺾어 집으로 가져오는 꿈은 여인이 자식을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "見筍者主添子孫",
+    "interpretation_ko": "죽순을 보는 꿈은 자손을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "掃地除糞家欲破",
+    "interpretation_ko": "마당을 쓸고 거름을 치우는 꿈은 집안 살림이 어려워질 흉조입니다"
+  },
+  {
+    "category": "地理山石樹木",
+    "source_zh": "糞土堆者錢財聚",
+    "interpretation_ko": "거름더미가 쌓이는 꿈은 재물이 모인다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "自身白衣人所謀",
+    "interpretation_ko": "자신이 흰옷을 입고 있는 꿈은 남에게 모함을 당할 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "梳頭洗面百憂去",
+    "interpretation_ko": "머리를 빗고 얼굴을 씻는 꿈은 온갖 걱정이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "身拜尊長大吉昌",
+    "interpretation_ko": "웃어른께 절을 올리는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "身上汗出主凶惡",
+    "interpretation_ko": "몸에서 땀이 나는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "身病蟲生得軍職",
+    "interpretation_ko": "몸에 병이 나서 벌레가 생기는 꿈은 군에서 벼슬을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "身上蟲行病患安",
+    "interpretation_ko": "몸 위로 벌레가 기어다니는 꿈은 앓던 병이 편안해진다는 좋은 징조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "繩索繫身長命吉",
+    "interpretation_ko": "몸에 밧줄이 묶이는 꿈은 오래 산다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "枷鎖臨身病欲來",
+    "interpretation_ko": "몸에 칼을 쓰거나 족쇄가 채워지는 꿈은 병이 찾아올 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "身成肥瘦皆為凶",
+    "interpretation_ko": "몸이 갑자기 살찌거나 마르는 꿈은 모두 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "面對官者主大吉",
+    "interpretation_ko": "관리를 마주하는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "露體無衣大吉利",
+    "interpretation_ko": "몸을 드러내고 옷을 입지 않은 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "婦人披頭有私情",
+    "interpretation_ko": "여인이 머리를 풀어헤친 꿈은 남모르는 애정사가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "頭白主長命大吉",
+    "interpretation_ko": "머리가 하얗게 세는 꿈은 오래 산다는 매우 좋은 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "頭生兩角有爭競",
+    "interpretation_ko": "머리에 뿔이 두 개 돋아나는 꿈은 다툼이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "頭禿髮落皆凶事",
+    "interpretation_ko": "머리가 벗겨지고 머리카락이 빠지는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "面生瘡黑主子凶",
+    "interpretation_ko": "얼굴에 검은 부스럼이 나는 꿈은 자식에게 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "頭鬚白落憂子孫",
+    "interpretation_ko": "머리와 수염이 하얗게 세어 빠지는 꿈은 자손에게 걱정스러운 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "頭鬚再生主長命",
+    "interpretation_ko": "머리와 수염이 다시 자라나는 꿈은 오래 산다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "沐浴遷官疾病除",
+    "interpretation_ko": "목욕을 하는 꿈은 벼슬이 오르고 앓던 병도 낫는다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "洗手洗足舊病除",
+    "interpretation_ko": "손발을 씻는 꿈은 오래된 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "照鏡明吉暗者凶",
+    "interpretation_ko": "거울을 보았을 때 밝으면 좋은 일이, 어두우면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "破鏡照人主分散",
+    "interpretation_ko": "깨진 거울에 자신을 비추는 꿈은 이별하게 된다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "手足膿血出大吉",
+    "interpretation_ko": "손발에서 고름과 피가 나오는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "屎尿污人大吉亨",
+    "interpretation_ko": "똥이나 오줌이 몸에 묻는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "露頭披髮主人謀",
+    "interpretation_ko": "머리를 풀어헤치고 드러내는 꿈은 남에게 모함을 당할 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "披髮蓋面官訟至",
+    "interpretation_ko": "머리카락이 풀어져 얼굴을 덮는 꿈은 소송에 휘말리게 된다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "剃頭剪髮家內凶",
+    "interpretation_ko": "머리를 깎거나 자르는 꿈은 집안에 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "眉與髮齊祿位至",
+    "interpretation_ko": "눈썹이 머리카락과 나란해지는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "齒自落者父母凶",
+    "interpretation_ko": "이가 저절로 빠지는 꿈은 부모에게 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "身體面目齒髮",
+    "source_zh": "齒落更生子孫興",
+    "interpretation_ko": "이가 빠졌다가 다시 나는 꿈은 자손이 번성한다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "戴官登車官欲遷",
+    "interpretation_ko": "관을 쓰고 수레에 오르는 꿈은 벼슬자리가 바뀌게 된다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "自戴襆頭巾帽吉",
+    "interpretation_ko": "스스로 두건이나 모자를 쓰는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "簪冠登台職位遷",
+    "interpretation_ko": "비녀를 꽂고 관을 쓴 채 단상에 오르는 꿈은 직위가 오른다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "貴人與之衣冠吉",
+    "interpretation_ko": "귀한 분이 옷과 관을 건네주는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "新換衣冠祿位至",
+    "interpretation_ko": "새 옷과 관으로 갈아입는 꿈은 재물과 벼슬이 따른다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "燒毀冠帽欲更官",
+    "interpretation_ko": "관모가 불에 타 없어지는 꿈은 벼슬자리가 바뀌게 된다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "失去冠帽去退職",
+    "interpretation_ko": "관모를 잃어버리는 꿈은 자리에서 물러나게 된다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "拾得官帶祿位至",
+    "interpretation_ko": "관복 띠를 줍는 꿈은 벼슬과 재물이 따른다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "與人公服主得職",
+    "interpretation_ko": "남에게 관복을 주는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "人與公服加官職",
+    "interpretation_ko": "남에게서 관복을 받는 꿈은 벼슬이 오르게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "女著冠帶主生子",
+    "interpretation_ko": "여자가 관과 띠를 두르는 꿈은 아이를 갖게 된다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "洗笏染服新官來",
+    "interpretation_ko": "홀을 씻고 옷을 물들이는 꿈은 새로운 벼슬자리가 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "執笏見貴人大吉",
+    "interpretation_ko": "홀을 들고 귀한 분을 만나는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "笏硫憂凶三不祥",
+    "interpretation_ko": "홀이 부러지는 꿈은 걱정스러운 일과 불길한 일이 겹친다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "與人笏綬主官遷",
+    "interpretation_ko": "남에게 홀과 인끈을 주는 꿈은 벼슬자리가 바뀌게 된다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "腰帶者主官至吉",
+    "interpretation_ko": "허리띠를 두르는 꿈은 벼슬자리가 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "文書用印有名聲",
+    "interpretation_ko": "문서에 도장을 찍는 꿈은 이름을 널리 알리게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "帶印主妻生貴子",
+    "interpretation_ko": "도장을 몸에 지니는 꿈은 아내가 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著新袍主添妻妾",
+    "interpretation_ko": "새 도포를 입는 꿈은 아내나 첩을 새로 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著錦繡衣子孫榮",
+    "interpretation_ko": "비단에 수놓은 옷을 입는 꿈은 자손이 번성한다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "洗染衣服皆大吉",
+    "interpretation_ko": "옷을 빨거나 물들이는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "披蓑衣主大恩至",
+    "interpretation_ko": "도롱이를 걸치는 꿈은 큰 은혜를 입게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "被油污衣大恩澤",
+    "interpretation_ko": "옷에 기름이 묻는 꿈은 큰 은혜를 입게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "衣服忽破妻外心",
+    "interpretation_ko": "옷이 갑자기 찢어지는 꿈은 아내의 마음이 밖으로 향한다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "新衣攢米百事凶",
+    "interpretation_ko": "새 옷에 쌀을 모으는 꿈은 온갖 일이 다 나쁘게 풀린다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "與人衣服主患至",
+    "interpretation_ko": "남에게 옷을 주는 꿈은 근심이나 우환이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "裁衣著孛衣皆吉",
+    "interpretation_ko": "옷을 마름질해 입는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "衣帶自解百事吉",
+    "interpretation_ko": "옷 띠가 저절로 풀리는 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著黃衣皂衣皆吉",
+    "interpretation_ko": "노란 옷이나 검은 옷을 입는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著白衣主有人請",
+    "interpretation_ko": "흰 옷을 입는 꿈은 누군가에게 초대를 받는다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著青衣神人助力",
+    "interpretation_ko": "푸른 옷을 입는 꿈은 신령의 도움을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著藍繡衣妻大利",
+    "interpretation_ko": "남색 수놓은 옷을 입는 꿈은 아내에게 큰 이로움이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "眾人著紫主情獘",
+    "interpretation_ko": "여러 사람이 자주색 옷을 입는 꿈은 정에 얽힌 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "與人著青家人散",
+    "interpretation_ko": "남에게 푸른 옷을 입혀주는 꿈은 가족이 흩어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "眾人著白主官事",
+    "interpretation_ko": "여러 사람이 흰 옷을 입는 꿈은 관청 일에 휘말리게 된다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "眾人著緋大吉利",
+    "interpretation_ko": "여러 사람이 붉은 옷을 입는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "妻著夫衣生貴子",
+    "interpretation_ko": "아내가 남편의 옷을 입는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "女子著衣平無事",
+    "interpretation_ko": "여자가 옷을 입는 꿈은 별다른 일 없이 평온하게 지낸다는 뜻입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "與人共衣妻私情",
+    "interpretation_ko": "남과 옷을 함께 입는 꿈은 아내에게 남모를 정분이 있다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "失卻衣服妻難產",
+    "interpretation_ko": "옷을 잃어버리는 꿈은 아내가 아이를 낳을 때 고생한다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "好被自蓋得富貴",
+    "interpretation_ko": "좋은 이불을 스스로 덮는 꿈은 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "人著己履妻有私",
+    "interpretation_ko": "남이 자기 신발을 신는 꿈은 아내에게 딴마음이 있다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "得靴鞋主奴婢吉",
+    "interpretation_ko": "신발을 얻는 꿈은 부리는 사람에게 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "失履主奴婢逃走",
+    "interpretation_ko": "신발을 잃어버리는 꿈은 부리는 사람이 도망친다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "脫靴束帶主有凶",
+    "interpretation_ko": "장화를 벗고 띠를 묶는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "鞋破子孫妻妾病",
+    "interpretation_ko": "신발이 찢어지는 꿈은 자손이나 아내가 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "著麻鞋百事和合",
+    "interpretation_ko": "삼으로 만든 신을 신는 꿈은 모든 일이 순조롭게 풀린다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "新授官爵主貴子",
+    "interpretation_ko": "새로 벼슬을 받는 꿈은 귀한 자식을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "乞得鞋履人助力",
+    "interpretation_ko": "신발을 얻어 신는 꿈은 누군가의 도움을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "冠帶衣服鞋襪",
+    "source_zh": "木履脫時己出厄",
+    "interpretation_ko": "나막신이 벗겨지는 꿈은 자신에게 닥친 액운에서 벗어난다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "君王對仗有異吉",
+    "interpretation_ko": "임금과 마주 서는 꿈은 뜻밖의 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "旌旂有龍大吉利",
+    "interpretation_ko": "깃발에 용이 그려진 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "抱旌節主貴人扶",
+    "interpretation_ko": "깃발을 품에 안는 꿈은 귀한 분의 도움을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "旌劍引入山主凶",
+    "interpretation_ko": "깃발과 칼이 산속으로 이끄는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "造旌蓋主大吉利",
+    "interpretation_ko": "깃발과 일산을 만드는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "羽蓋蓋身主富貴",
+    "interpretation_ko": "깃털 일산이 몸을 덮는 꿈은 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "旂旛迎接大富貴",
+    "interpretation_ko": "깃발이 나부끼며 마중 나오는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "旗旛竟出主疾病",
+    "interpretation_ko": "깃발이 갑자기 나타나는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "手持旌節有恩賞",
+    "interpretation_ko": "손에 깃발을 쥐는 꿈은 은혜로운 상을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "白蓋覆身大吉利",
+    "interpretation_ko": "흰 일산이 몸을 덮는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "見做新旌大吉利",
+    "interpretation_ko": "새 깃발을 만드는 것을 보는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "與人分傘主分散",
+    "interpretation_ko": "남과 우산을 나누는 꿈은 헤어지는 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "拔刀出行主大吉",
+    "interpretation_ko": "칼을 뽑아 들고 길을 나서는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "得人刀主行人至",
+    "interpretation_ko": "남의 칼을 얻는 꿈은 먼 길 떠난 사람이 돌아온다는 뜻입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "人與三刀作刺史",
+    "interpretation_ko": "남에게서 칼 세 자루를 받는 꿈은 높은 벼슬자리에 오른다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "與人與斫大吉慶",
+    "interpretation_ko": "남에게 도끼를 주는 꿈은 큰 경사가 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "被刀出血得酒食",
+    "interpretation_ko": "칼에 베여 피가 나는 꿈은 술과 음식이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "折刀刺人主失利",
+    "interpretation_ko": "부러진 칼로 사람을 찌르는 꿈은 손해를 보게 된다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "刀斧自傷大吉利",
+    "interpretation_ko": "칼이나 도끼에 스스로 다치는 꿈은 오히려 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "得人刀斧祿位至",
+    "interpretation_ko": "남의 칼이나 도끼를 얻는 꿈은 재물과 벼슬이 따른다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "刀落水中妻妾亡",
+    "interpretation_ko": "칼이 물속에 떨어지는 꿈은 아내에게 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "失落刀劍主破財",
+    "interpretation_ko": "칼을 잃어버리는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "帶刀劍行有財利",
+    "interpretation_ko": "칼을 차고 길을 가는 꿈은 재물의 이로움이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "磨刀劍鋒快大吉",
+    "interpretation_ko": "칼을 갈아 날카롭게 세우는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "與人刀劍皆主凶",
+    "interpretation_ko": "남에게 칼을 주는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "劍在床頭大吉利",
+    "interpretation_ko": "칼이 침상 머리맡에 있는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "女人帶刀大吉慶",
+    "interpretation_ko": "여자가 칼을 차는 꿈은 큰 경사가 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "女人拔刀主有子",
+    "interpretation_ko": "여자가 칼을 뽑는 꿈은 아이를 갖게 된다는 뜻입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "剪刀主分財之事",
+    "interpretation_ko": "가위가 나오는 꿈은 재물을 나누는 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "剪刀剪物主得財",
+    "interpretation_ko": "가위로 물건을 자르는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "剪刀折股妻妾亡",
+    "interpretation_ko": "가위가 부러지는 꿈은 아내에게 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "甲冑庇身主吉利",
+    "interpretation_ko": "갑옷이 몸을 지켜주는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "鎗槊主官位吉利",
+    "interpretation_ko": "창을 얻는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "見軍兵散主有凶",
+    "interpretation_ko": "군사들이 흩어지는 것을 보는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "鐘磐有聲遠人來",
+    "interpretation_ko": "종소리나 경쇠 소리가 울리는 꿈은 멀리서 사람이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "鐘豉大鳴福祿至",
+    "interpretation_ko": "종과 북소리가 크게 울리는 꿈은 복과 재물이 찾아온다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "打鼓有聲遠人來",
+    "interpretation_ko": "북을 치는 소리가 들리는 꿈은 멀리서 사람이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "見鼓佳聲懽樂吉",
+    "interpretation_ko": "북소리가 듣기 좋게 울리는 꿈은 즐거운 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "見鼓不嗚凶必至",
+    "interpretation_ko": "북이 울리지 않는 꿈은 나쁜 일이 반드시 생긴다는 흉조입니다"
+  },
+  {
+    "category": "刀劍旌節鐘鼓",
+    "source_zh": "看放煙火百憂散",
+    "interpretation_ko": "불꽃놀이를 구경하는 꿈은 온갖 근심이 사라진다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "帝王宣召有驚喜",
+    "interpretation_ko": "임금이 불러들이는 꿈은 뜻밖의 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "后妃呼召飲有疾",
+    "interpretation_ko": "왕비가 불러 술을 마시는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "太子召大喜吉利",
+    "interpretation_ko": "태자가 불러들이는 꿈은 매우 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "天子賜坐有財吉",
+    "interpretation_ko": "임금이 자리를 내어주는 꿈은 재물이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "見老君言有仙分",
+    "interpretation_ko": "노군을 만나 말을 나누는 꿈은 신선과 인연이 있다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "拜佛欲動大有財",
+    "interpretation_ko": "부처께 절을 올리는 꿈은 큰 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "看火上陳事大吉",
+    "interpretation_ko": "불빛이 솟아오르는 것을 보는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "神佛嗔怒皆不吉",
+    "interpretation_ko": "신령이나 부처가 화를 내는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "王侯並坐大吉利",
+    "interpretation_ko": "왕이나 귀족과 나란히 앉는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "來見貴人不得凶",
+    "interpretation_ko": "귀한 분을 찾아갔으나 만나지 못하는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "與聖賢說話大吉",
+    "interpretation_ko": "성현과 이야기를 나누는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "使命入門大吉利",
+    "interpretation_ko": "사신이 문 안으로 들어오는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "白衣召作便死亡",
+    "interpretation_ko": "흰 옷 입은 이가 불러 일을 시키는 꿈은 목숨을 잃을 만큼 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "拜尊長者有吉慶",
+    "interpretation_ko": "어른께 절을 올리는 꿈은 좋은 경사가 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "先祖考言求食吉",
+    "interpretation_ko": "돌아가신 조상이 나타나 먹을 것을 청하는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "人云大好者即凶",
+    "interpretation_ko": "남이 아주 좋다고 말해주는 꿈은 오히려 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "人云死者得長命",
+    "interpretation_ko": "남이 죽었다고 말하는 꿈은 오히려 오래 산다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "人在外呼之招凶",
+    "interpretation_ko": "밖에서 누군가 자신을 부르는 꿈은 나쁜 일을 불러온다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "我欲共汝去大凶",
+    "interpretation_ko": "누군가 함께 가자고 하는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "人云不用汝大吉",
+    "interpretation_ko": "남이 자신은 필요 없다고 말하는 꿈은 오히려 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "與惡人言主口舌",
+    "interpretation_ko": "나쁜 사람과 이야기를 나누는 꿈은 말다툼이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "被殺害吉伏藏凶",
+    "interpretation_ko": "누군가에게 죽임을 당하는 꿈은 좋은 일이, 숨어 있는 꿈은 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "身生羽翼飛大吉",
+    "interpretation_ko": "몸에 날개가 돋아 하늘을 나는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "身逃去得脫病去",
+    "interpretation_ko": "몸을 피해 달아나는 꿈은 앓던 병에서 벗어난다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "與人交易主有疾",
+    "interpretation_ko": "남과 물건을 사고파는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "貧窮兵居主大吉",
+    "interpretation_ko": "가난한 처지에 놓이는 꿈은 오히려 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "合伴同行凶事至",
+    "interpretation_ko": "동행과 함께 길을 가는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "帝王文武呼召",
+    "source_zh": "一切貴人皆吉祥",
+    "interpretation_ko": "귀한 분들을 만나는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "入帝王宮行大吉",
+    "interpretation_ko": "임금의 궁궐에 들어가는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "拜朝廷者主富貴",
+    "interpretation_ko": "조정에 나아가 절을 올리는 꿈은 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "入王侯府庫大吉",
+    "interpretation_ko": "왕후의 창고에 들어가는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "行道宮見仙主吉",
+    "interpretation_ko": "도관에서 신선을 만나는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "坐官府中主大吉",
+    "interpretation_ko": "관청 안에 앉아 있는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "神廟廣大事事吉",
+    "interpretation_ko": "신령을 모신 사당이 크고 웅장한 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上樓閣壇主大吉",
+    "interpretation_ko": "누각이나 제단에 오르는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上高堂大富貴至",
+    "interpretation_ko": "높은 대청에 오르는 꿈은 큰 부귀가 찾아온다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "高樓飲酒富貴至",
+    "interpretation_ko": "높은 누각에서 술을 마시는 꿈은 부귀가 찾아온다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "家起高樓安穩事",
+    "interpretation_ko": "집에 높은 누각을 짓는 꿈은 편안하고 안정된 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上城為人所拽吉",
+    "interpretation_ko": "성벽에 오르다 남에게 이끌려 올라가는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上城被執官職顯",
+    "interpretation_ko": "성벽에 올랐다가 붙잡히는 꿈은 벼슬자리가 높아진다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "城郭廣大財喜多",
+    "interpretation_ko": "성곽이 크고 넓은 꿈은 재물과 기쁜 일이 많이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "城中行凶出門吉",
+    "interpretation_ko": "성 안을 돌아다니는 꿈은 나쁘고 성문 밖으로 나가는 꿈은 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "連城青色有喜吉",
+    "interpretation_ko": "성곽이 온통 푸른빛을 띠는 꿈은 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "登赤城郭主大吉",
+    "interpretation_ko": "붉은빛 성곽에 오르는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "蓋城上屋大吉利",
+    "interpretation_ko": "성벽 위에 집을 짓는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上屋主富出園吉",
+    "interpretation_ko": "지붕 위에 오르거나 정원으로 나가는 꿈은 부유해진다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "上屋破壞家道凶",
+    "interpretation_ko": "부서진 지붕 위에 오르는 꿈은 집안 형편이 어려워진다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "堂上有棺身安樂",
+    "interpretation_ko": "대청에 관이 놓여 있는 꿈은 오히려 몸이 편안해진다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "正堂倒陷家主凶",
+    "interpretation_ko": "대청이 무너져 내려앉는 꿈은 집안에 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "覆蓋屋宇長命吉",
+    "interpretation_ko": "지붕을 새로 덮는 꿈은 오래 산다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋宅更新主大吉",
+    "interpretation_ko": "집이 새롭게 바뀌는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "風吹屋動主遷移",
+    "interpretation_ko": "바람이 불어 집이 흔들리는 꿈은 이사를 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "遷入他人新宅吉",
+    "interpretation_ko": "남의 새 집으로 이사 들어가는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "居出宅主妻喜事",
+    "interpretation_ko": "집에서 나와 거처를 옮기는 꿈은 아내에게 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "搬移破屋主美妻",
+    "interpretation_ko": "낡은 집으로 이사하는 꿈은 아름다운 아내를 얻는다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "人或典房主官位",
+    "interpretation_ko": "남이 집을 저당 잡히는 꿈은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "家道貧窮大吉利",
+    "interpretation_ko": "집안 형편이 가난해지는 꿈은 오히려 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "洒掃宅舍遠人來",
+    "interpretation_ko": "집안을 깨끗이 청소하는 꿈은 멀리서 사람이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "典賣典舍主失位",
+    "interpretation_ko": "집을 저당 잡히거나 파는 꿈은 자리에서 물러나게 된다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋宅無人主死亡",
+    "interpretation_ko": "빈집에 아무도 없는 꿈은 사람이 목숨을 잃는다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋上穿舟有暗昧",
+    "interpretation_ko": "지붕 위로 배가 지나가는 꿈은 은밀하고 떳떳하지 못한 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "踰牆渡宅百事去",
+    "interpretation_ko": "담을 넘어 집을 벗어나는 꿈은 모든 일이 뜻대로 되지 않는다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "與人爭屋主大凶",
+    "interpretation_ko": "남과 집을 두고 다투는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "與婦人爭屋主吉",
+    "interpretation_ko": "여자와 집을 두고 다투는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "房樑忽折主大凶",
+    "interpretation_ko": "대들보가 갑자기 부러지는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "院宅坑下主死亡",
+    "interpretation_ko": "집 마당이 움푹 꺼지는 꿈은 사람이 목숨을 잃는다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "妻男牆下官位至",
+    "interpretation_ko": "아내와 자식이 담장 아래 있는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "牆上掘土主更政",
+    "interpretation_ko": "담장 위의 흙을 파내는 꿈은 하는 일에 큰 변화가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "軍人入宅主大吉",
+    "interpretation_ko": "군인이 집 안으로 들어오는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "死央瓦落婦爭鬥",
+    "interpretation_ko": "기와가 떨어지는 꿈은 죽음의 재앙과 여자들의 다툼이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋中生馬男信至",
+    "interpretation_ko": "집 안에서 말이 나타나는 꿈은 아들에게서 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋中生草家欲空",
+    "interpretation_ko": "집 안에 풀이 자라나는 꿈은 집안이 텅 비게 된다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "屋上生松柏益壽",
+    "interpretation_ko": "지붕 위에 소나무나 잣나무가 자라는 꿈은 수명이 늘어난다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "修理田舍有大喜",
+    "interpretation_ko": "농가를 수리하는 꿈은 큰 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "入寺院中生男子",
+    "interpretation_ko": "절 안으로 들어가는 꿈은 아들을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "寺舍有經病人痊",
+    "interpretation_ko": "절에서 경전을 보는 꿈은 앓던 사람이 낫는다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "遷移尼寺主病至",
+    "interpretation_ko": "여승이 있는 절로 거처를 옮기는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "起蓋倉庫福祿至",
+    "interpretation_ko": "창고를 짓는 꿈은 복과 재물이 찾아온다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "入倉庫中大吉昂",
+    "interpretation_ko": "창고 안으로 들어가는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "宮室屋宇倉庫",
+    "source_zh": "倉庫崩壞百事凶",
+    "interpretation_ko": "창고가 무너지는 꿈은 온갖 일이 다 나쁘게 풀린다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶高大主富貴",
+    "interpretation_ko": "대문이 높고 크게 보이는 꿈은 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "新開門戶大富貴",
+    "interpretation_ko": "새로 문을 여는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶忽開主大吉",
+    "interpretation_ko": "문이 갑자기 열리는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶大開大吉利",
+    "interpretation_ko": "문이 활짝 열리는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門更新主生貴子",
+    "interpretation_ko": "문을 새로 고치는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門自開妻有私情",
+    "interpretation_ko": "문이 저절로 열리는 꿈은 아내가 바람을 피운다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶裂開主大吉",
+    "interpretation_ko": "문이 갈라져 열리는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶破壞有凶事",
+    "interpretation_ko": "문이 부서지는 꿈은 안 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "城門大開主口舌",
+    "interpretation_ko": "성문이 활짝 열리는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "宮城塞者口舌至",
+    "interpretation_ko": "궁궐 성벽이 막히는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶閉塞事不通",
+    "interpretation_ko": "문이 꽉 막혀 있는 꿈은 하는 일이 잘 풀리지 않는다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶破壞主大凶",
+    "interpretation_ko": "문이 심하게 부서지는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門扇自折奴僕走",
+    "interpretation_ko": "문짝이 저절로 부러지는 꿈은 하인이 도망간다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門戶內無人大凶",
+    "interpretation_ko": "문 안에 사람이 없는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "修移門戶大吉利",
+    "interpretation_ko": "문을 고치거나 옮기는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "石為門戶主壽命",
+    "interpretation_ko": "돌로 된 문을 보는 꿈은 오래 산다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門前生草作刺史",
+    "interpretation_ko": "문 앞에 풀이 자라는 꿈은 높은 벼슬에 오른다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "門前坑溝事不成",
+    "interpretation_ko": "문 앞에 구덩이나 도랑이 있는 꿈은 하려는 일이 잘 안 된다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "天火燒門主凶事",
+    "interpretation_ko": "하늘에서 떨어진 불이 문을 태우는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "屋開小門主私情",
+    "interpretation_ko": "집에 작은 문이 새로 생기는 꿈은 남몰래 정을 통하는 일이 있다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "穿井見水遠信至",
+    "interpretation_ko": "우물을 파서 물을 보는 꿈은 멀리서 반가운 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井自損壞家大敗",
+    "interpretation_ko": "우물이 저절로 무너지는 꿈은 집안이 크게 기울게 된다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井中沸溢主得財",
+    "interpretation_ko": "우물물이 끓어 넘치는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井枯涸者家財散",
+    "interpretation_ko": "우물이 바싹 마르는 꿈은 집안 재물이 흩어진다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井中照身祿位至",
+    "interpretation_ko": "우물에 자기 모습을 비춰보는 꿈은 높은 자리에 오른다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "身墜井中疾病凶",
+    "interpretation_ko": "우물에 몸이 빠지는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "房在井中主見病",
+    "interpretation_ko": "방이 우물 속에 있는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "取井水清吉混凶",
+    "interpretation_ko": "우물물을 긷는데 물이 맑으면 좋은 일이, 흐리면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井水負泥出財主",
+    "interpretation_ko": "우물물에 진흙이 섞여 나오는 꿈은 재물이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井中欲乾家欲破",
+    "interpretation_ko": "우물이 말라가는 꿈은 집안이 무너지려 한다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "井中有魚身主貴",
+    "interpretation_ko": "우물 속에 물고기가 있는 꿈은 귀한 신분이 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "窺井有聲口舌生",
+    "interpretation_ko": "우물을 들여다보다 소리가 들리는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "伏藏井中刑獄事",
+    "interpretation_ko": "우물 속에 숨는 꿈은 옥살이를 하게 될 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "醉落井中官事至",
+    "interpretation_ko": "술에 취해 우물에 빠지는 꿈은 관재구설이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "家住井中長子凶",
+    "interpretation_ko": "집이 우물 속에 있는 꿈은 맏아들에게 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "人云出井喜氣至",
+    "interpretation_ko": "우물에서 나온다는 말을 듣는 꿈은 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "淘井造井主大貴",
+    "interpretation_ko": "우물을 파내거나 새로 만드는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "器皿落井有吉事",
+    "interpretation_ko": "그릇이 우물에 빠지는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "灶下水流得橫財",
+    "interpretation_ko": "부뚜막 아래로 물이 흐르는 꿈은 뜻밖의 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "灶下燃火有聲名",
+    "interpretation_ko": "부뚜막에 불이 활활 타오르는 꿈은 이름을 널리 알리게 된다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "灶釜破敗有死亡",
+    "interpretation_ko": "부뚜막의 솥이 깨지는 꿈은 사람이 죽는 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "灶下吹者家破敗",
+    "interpretation_ko": "부뚜막 아래에 바람이 부는 꿈은 집안이 몰락한다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "灶下鳴器主口舌",
+    "interpretation_ko": "부뚜막 아래서 그릇 소리가 나는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "屋有二灶事不成",
+    "interpretation_ko": "한 집에 부뚜막이 두 개 있는 꿈은 하려는 일이 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "修造廚灶大吉利",
+    "interpretation_ko": "부엌이나 부뚜막을 고치는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "在官廚中得財祿",
+    "interpretation_ko": "관청 부엌에 있는 꿈은 재물과 녹봉을 얻는다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "自吹臼中妻妾亡",
+    "interpretation_ko": "절구 속에 바람을 부는 꿈은 아내나 첩이 세상을 떠난다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "淘廁者主得橫財",
+    "interpretation_ko": "변소를 청소하는 꿈은 뜻밖의 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "上廁在屎尿中吉",
+    "interpretation_ko": "변소에서 똥오줌 속에 있는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "廁中屎溢大吉利",
+    "interpretation_ko": "변소에 똥이 넘쳐흐르는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "糞中坐者主大凶",
+    "interpretation_ko": "똥 속에 앉아 있는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "門戶井灶廚廁",
+    "source_zh": "糞土堆積主得財",
+    "interpretation_ko": "똥과 흙이 쌓이는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "金銀寶者主富貴",
+    "interpretation_ko": "금은보화를 보는 꿈은 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "金銀珠玉大吉利",
+    "interpretation_ko": "금은보화와 진주 옥을 보는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "金銀杯皿有貴孕",
+    "interpretation_ko": "금은으로 만든 잔이나 그릇을 보는 꿈은 귀한 아이를 갖게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "金銀作鐺器大吉",
+    "interpretation_ko": "금은으로 솥이나 그릇을 만드는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "玉積如山大富貴",
+    "interpretation_ko": "옥이 산더미처럼 쌓이는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "得金玉環生貴子",
+    "interpretation_ko": "금이나 옥으로 된 고리를 얻는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "銅鐺主有口舌至",
+    "interpretation_ko": "구리 솥을 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "珠玉滿懷主大凶",
+    "interpretation_ko": "진주와 옥이 품 안 가득한 꿈은 오히려 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "得玉碗器物皆吉",
+    "interpretation_ko": "옥으로 된 그릇을 얻는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "見鐵器物主得財",
+    "interpretation_ko": "쇠로 된 물건을 보는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "鉛與鍚者主得財",
+    "interpretation_ko": "납이나 주석을 얻는 꿈은 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "得銅物主大富貴",
+    "interpretation_ko": "구리로 된 물건을 얻는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "鑲嵌器物疾病去",
+    "interpretation_ko": "보석을 박아 넣은 그릇을 보는 꿈은 앓던 병이 낫는다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "還人錢物疾病去",
+    "interpretation_ko": "남에게 돈이나 물건을 돌려주는 꿈은 앓던 병이 낫는다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "拾得錢物皆大吉",
+    "interpretation_ko": "돈이나 물건을 주워 얻는 꿈은 모두 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "錢春夏吉秋冬凶",
+    "interpretation_ko": "돈을 보는 꿈은 봄과 여름이면 좋은 일이, 가을과 겨울이면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "家中分財主離敗",
+    "interpretation_ko": "집안에서 재산을 나누는 꿈은 가족이 흩어지고 집안이 기운다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "贈彩帛者主有權",
+    "interpretation_ko": "화려한 비단을 선물 받는 꿈은 권세를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "貴人賜綾錦官至",
+    "interpretation_ko": "귀한 분이 고운 비단을 내려주는 꿈은 높은 벼슬을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "人賜絹帛大吉昌",
+    "interpretation_ko": "누군가 비단을 선물해주는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "與人絲帛大凶惡",
+    "interpretation_ko": "남에게 명주와 비단을 주는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "得他人麻布衣凶",
+    "interpretation_ko": "남의 삼베옷을 얻는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "得布帛遠親來至",
+    "interpretation_ko": "베나 비단을 얻는 꿈은 멀리 있던 친척이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "與人衣服官事至",
+    "interpretation_ko": "남에게 옷을 주는 꿈은 관재구설이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "尋絲絹主進入口",
+    "interpretation_ko": "명주실이나 비단을 찾는 꿈은 먹을거리가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "紡績者主壽命長",
+    "interpretation_ko": "실을 잣는 꿈은 오래 산다는 길조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "經絡者主被人辱",
+    "interpretation_ko": "실을 엮는 꿈은 남에게 모욕을 당한다는 흉조입니다"
+  },
+  {
+    "category": "金銀珠玉絹帛",
+    "source_zh": "箱器主口舌之事",
+    "interpretation_ko": "상자나 그릇을 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "明鏡者吉暗者凶",
+    "interpretation_ko": "거울이 맑고 밝게 보이면 좋은 일이, 어둡고 흐리게 보이면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "拾得鏡者招好妻",
+    "interpretation_ko": "거울을 주워서 얻는 꿈은 좋은 아내를 맞이하게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "將鏡自照遠信至",
+    "interpretation_ko": "거울로 자기 얼굴을 비춰보는 꿈은 멀리서 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "鏡照他人妻妾凶",
+    "interpretation_ko": "거울로 남의 아내나 첩을 비추는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "得他人鏡有貴子",
+    "interpretation_ko": "남의 거울을 얻는 꿈은 귀한 자식을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "他人弄己鏡妻凶",
+    "interpretation_ko": "남이 자기 거울을 만지작거리는 꿈은 아내에게 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "鏡破主夫妻離別",
+    "interpretation_ko": "거울이 깨지는 꿈은 부부가 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "金釵動有遠行事",
+    "interpretation_ko": "금비녀가 움직이는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "金鈿成雙增愛妾",
+    "interpretation_ko": "금비녀 한 쌍을 보는 꿈은 사랑하는 첩이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "釵釧相敲妻別凶",
+    "interpretation_ko": "비녀와 팔찌가 서로 부딪치는 꿈은 아내와 헤어지게 되는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "金釵耀主生貴子",
+    "interpretation_ko": "금비녀가 반짝이는 꿈은 귀한 자식을 낳게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "花釵妻妾有姦佞",
+    "interpretation_ko": "꽃 장식 비녀를 보는 꿈은 아내나 첩이 부정을 저지른다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "銀釧夫妻主相毆",
+    "interpretation_ko": "은팔찌를 보는 꿈은 부부가 서로 다투게 된다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "花壓妻妾生外心",
+    "interpretation_ko": "꽃에 눌리는 꿈은 아내나 첩이 딴마음을 품게 된다는 흉조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "人與梳篦得美妾",
+    "interpretation_ko": "누군가 빗을 건네주는 꿈은 아름다운 첩을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "牙木梳舊事盡去",
+    "interpretation_ko": "상아나 나무로 된 빗을 보는 꿈은 묵은 근심이 모두 사라진다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "見篦子貴人提攜",
+    "interpretation_ko": "참빗을 보는 꿈은 귀한 분이 이끌어준다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "得篦子者美女至",
+    "interpretation_ko": "참빗을 얻는 꿈은 아름다운 여인을 만나게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "刷牙者病患不生",
+    "interpretation_ko": "이를 닦는 꿈은 병에 걸리지 않는다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "得胭脂粉主生女",
+    "interpretation_ko": "연지분을 얻는 꿈은 딸을 낳게 된다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "見脂粉主大財利",
+    "interpretation_ko": "연지분을 보는 꿈은 큰 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "得粉僕妻生嬌女",
+    "interpretation_ko": "하인의 아내가 화장분을 얻는 꿈은 예쁜 딸을 낳게 된다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "手帕者主口舌事",
+    "interpretation_ko": "손수건을 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "鏡環釵釧梳篦",
+    "source_zh": "針線得者百事就",
+    "interpretation_ko": "바늘과 실을 얻는 꿈은 하는 일마다 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床帳改主官遷移",
+    "interpretation_ko": "침상 휘장을 바꾸는 꿈은 벼슬자리가 바뀐다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "舒展床帳大富貴",
+    "interpretation_ko": "침상 휘장을 활짝 펼치는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "新安床帳遠人來",
+    "interpretation_ko": "침상 휘장을 새로 설치하는 꿈은 멀리서 사람이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床帳出門者妻亡",
+    "interpretation_ko": "침상 휘장이 문밖으로 나가는 꿈은 아내가 세상을 떠난다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床帳收換移居吉",
+    "interpretation_ko": "침상 휘장을 걷어 바꾸는 꿈은 이사를 가면 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床上有蟻至不祥",
+    "interpretation_ko": "침상 위에 개미가 있는 꿈은 상서롭지 못한 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床帳破損妻欲亡",
+    "interpretation_ko": "침상 휘장이 찢어지는 꿈은 아내가 세상을 떠날 수 있다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "開帳幔主有酒食",
+    "interpretation_ko": "휘장을 걷는 꿈은 술과 음식을 대접받을 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "帳幔壞者妻子病",
+    "interpretation_ko": "휘장이 망가지는 꿈은 아내나 자식이 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "床腳新換奴僕凶",
+    "interpretation_ko": "침상 다리를 새로 바꾸는 꿈은 하인에게 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "上床臥者大凶惡",
+    "interpretation_ko": "침상에 올라가 눕는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "血在床妻妾有姦",
+    "interpretation_ko": "침상에 피가 묻어 있는 꿈은 아내나 첩이 부정을 저지른다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "洗床帳則主大吉",
+    "interpretation_ko": "침상 휘장을 씻는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "薦蓆入吉出則凶",
+    "interpretation_ko": "돗자리를 집 안으로 들이는 꿈은 좋은 일이, 밖으로 내가는 꿈은 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "破蓆者主失官位",
+    "interpretation_ko": "돗자리가 찢어지는 꿈은 벼슬자리를 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "換蓆入吉出則凶",
+    "interpretation_ko": "돗자리를 바꿔 안으로 들이면 좋은 일이, 밖으로 내가면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "蓆簞者主有力助",
+    "interpretation_ko": "돗자리나 대나무 그릇을 보는 꿈은 누군가 힘써 도와준다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "毯褥舖陳萬事穩",
+    "interpretation_ko": "담요와 이불을 펼쳐 깔아두는 꿈은 모든 일이 평온하게 풀린다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "毀蓆幔者妻有姦",
+    "interpretation_ko": "돗자리나 휘장이 훼손되는 꿈은 아내가 부정을 저지른다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "新簾者主得好妻",
+    "interpretation_ko": "새 발을 보는 꿈은 좋은 아내를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "舖蓆合坐得官位",
+    "interpretation_ko": "돗자리를 깔고 함께 앉는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "好被自蓋主大吉",
+    "interpretation_ko": "좋은 이불을 스스로 덮는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "見好枕有貴人扶",
+    "interpretation_ko": "좋은 베개를 보는 꿈은 귀한 분이 도와준다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "見手帕主有口舌",
+    "interpretation_ko": "손수건을 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "手中縛布病患至",
+    "interpretation_ko": "손에 천을 묶는 꿈은 병을 앓게 된다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "毛肩忽持官事至",
+    "interpretation_ko": "털옷을 어깨에 걸치는 꿈은 관재구설이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鼎鼐者主得大財",
+    "interpretation_ko": "솥을 보는 꿈은 큰 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "釜溢者主得大財",
+    "interpretation_ko": "가마솥이 넘치는 꿈은 큰 재물을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "玉石器主有人助",
+    "interpretation_ko": "옥으로 만든 그릇을 보는 꿈은 누군가 도와준다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "銅鐺者主口舌至",
+    "interpretation_ko": "구리 솥을 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鍋鐵破主喪事來",
+    "interpretation_ko": "쇠솥이 깨지는 꿈은 초상이 난다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鐺盞破主有惡事",
+    "interpretation_ko": "솥이나 잔이 깨지는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "磁碗者主酒食至",
+    "interpretation_ko": "사기그릇을 보는 꿈은 술과 음식을 대접받을 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "磁碟者主口舌至",
+    "interpretation_ko": "사기 접시를 보는 꿈은 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "匙主益妻妾子孫",
+    "interpretation_ko": "숟가락을 보는 꿈은 아내와 자손에게 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "櫡主益田宅奴僕",
+    "interpretation_ko": "젓가락을 보는 꿈은 논밭과 집, 하인이 늘어난다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "盆主益倉庫大吉",
+    "interpretation_ko": "동이를 보는 꿈은 곳간이 넉넉해진다는 아주 좋은 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "棳盆脫底主財散",
+    "interpretation_ko": "동이 바닥이 빠지는 꿈은 재물이 흩어진다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "入盆甕器大富貴",
+    "interpretation_ko": "동이나 항아리 속으로 들어가는 꿈은 큰 부귀를 누리게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "洗面盆者美妾至",
+    "interpretation_ko": "세숫대야를 씻는 꿈은 아름다운 첩을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "大小盆者主團圓",
+    "interpretation_ko": "크고 작은 동이를 보는 꿈은 가족이 한자리에 모이게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "得盆子者所求得",
+    "interpretation_ko": "동이를 얻는 꿈은 바라던 일을 이루게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "桶盛水者主大吉",
+    "interpretation_ko": "물이 가득 담긴 통을 보는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "桶無水者主大凶",
+    "interpretation_ko": "물이 없는 빈 통을 보는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "人送大桶主得利",
+    "interpretation_ko": "누군가 큰 통을 보내주는 꿈은 이득을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "桌架於宅事不成",
+    "interpretation_ko": "탁자가 집 안에 놓여 있는 꿈은 하려는 일이 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鋸主有斷決之事",
+    "interpretation_ko": "톱을 보는 꿈은 무언가를 결단해야 할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "碾衣食移居大吉",
+    "interpretation_ko": "옷이나 곡식을 다듬는 꿈은 이사를 가면 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鎚鑽者主侵害事",
+    "interpretation_ko": "망치나 송곳을 보는 꿈은 남에게 해를 입는 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鎚欲舉動有人持",
+    "interpretation_ko": "망치를 누군가 들어 올리려 하는 꿈은 남이 시비를 건다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "鑿主被人驅使吉",
+    "interpretation_ko": "끌을 보는 꿈은 남에게 부림을 받아도 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "熨斗盛火好事成",
+    "interpretation_ko": "다리미에 불이 담기는 꿈은 좋은 일이 이루어진다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "燻籠者益增田產",
+    "interpretation_ko": "불 쬐는 대바구니를 보는 꿈은 논밭과 재산이 늘어난다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "人與秤者主權位",
+    "interpretation_ko": "누군가 저울을 건네주는 꿈은 권세와 지위를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "繩索主長命大吉",
+    "interpretation_ko": "밧줄을 보는 꿈은 오래 산다는 아주 좋은 길조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "繩索斷者主凶惡",
+    "interpretation_ko": "밧줄이 끊어지는 꿈은 아주 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "人與鑿者得失金",
+    "interpretation_ko": "누군가 끌을 건네주는 꿈은 재물을 얻었다 잃었다 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "衣帳毯褥匙櫡",
+    "source_zh": "人送帶者主得位",
+    "interpretation_ko": "누군가 허리띠를 보내주는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "船飛行主大富貴",
+    "interpretation_ko": "배가 하늘을 날아가는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "船淺在岸是非厄",
+    "interpretation_ko": "배가 물이 얕아 뭍에 걸려 있는 꿈은 다툼과 곤란한 일을 겪게 된다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船渡江河得官",
+    "interpretation_ko": "배를 타고 강을 건너는 꿈은 벼슬자리를 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "船中有水主得財",
+    "interpretation_ko": "배 안에 물이 차 있는 꿈은 재물을 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船看日月得職",
+    "interpretation_ko": "배를 타고 가면서 해와 달을 보는 꿈은 좋은 직책을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船過日月主富",
+    "interpretation_ko": "배를 타고 해와 달을 지나가는 꿈은 살림이 넉넉해진다는 좋은 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船飲酒遠客至",
+    "interpretation_ko": "배 위에서 술을 마시는 꿈은 멀리서 반가운 손님이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "與人同船主移居",
+    "interpretation_ko": "다른 사람과 함께 배를 타는 꿈은 이사를 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船風帆大吉利",
+    "interpretation_ko": "배를 타고 순풍에 돛을 활짝 펴는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船見舵主安穩",
+    "interpretation_ko": "배를 타고 키를 보는 꿈은 모든 일이 편안하게 풀린다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船橋下過大吉",
+    "interpretation_ko": "배를 타고 다리 밑을 지나가는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "病人乘船必主死",
+    "interpretation_ko": "병을 앓는 사람이 배를 타는 꿈은 목숨을 잃을 수 있다는 불길한 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "助父乘船官位至",
+    "interpretation_ko": "아버지를 도와 함께 배를 타는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "身臥船中主有凶",
+    "interpretation_ko": "자기 몸이 배 안에 누워 있는 꿈은 안 좋은 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "執火入船主大吉",
+    "interpretation_ko": "불을 손에 들고 배에 오르는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "家中乘船主沒財",
+    "interpretation_ko": "집 안에서 배를 타는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "乘船看花酒食至",
+    "interpretation_ko": "배를 타고 꽃을 구경하는 꿈은 좋은 술과 음식이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "船車破碎主不祥",
+    "interpretation_ko": "배나 수레가 부서지는 꿈은 좋지 않은 일이 생긴다는 불길한 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車輪破夫妻相別",
+    "interpretation_ko": "수레바퀴가 부서지는 꿈은 부부가 서로 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車輪折倒主破敗",
+    "interpretation_ko": "수레바퀴가 부러져 수레가 넘어지는 꿈은 하는 일이 크게 실패한다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車載不起厄事去",
+    "interpretation_ko": "수레가 짐을 다 싣지 못하는 꿈은 오히려 걱정거리가 사라진다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "駕車遊行祿位至",
+    "interpretation_ko": "수레를 몰고 나들이하는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車行主百事順和",
+    "interpretation_ko": "수레가 순조롭게 나아가는 꿈은 모든 일이 순탄하게 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車不行所求不遂",
+    "interpretation_ko": "수레가 앞으로 나아가지 못하는 꿈은 바라던 일이 뜻대로 되지 않는다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "車入門主有凶事",
+    "interpretation_ko": "수레가 대문 안으로 들어오는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "病人上車主大凶",
+    "interpretation_ko": "병을 앓는 사람이 수레에 오르는 꿈은 매우 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "喪車遇者主災散",
+    "interpretation_ko": "상여를 만나는 꿈은 오히려 걱정거리가 사라진다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "行車白馬主大吉",
+    "interpretation_ko": "흰 말이 끄는 수레를 타고 가는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "四馬駕車吉反凶",
+    "interpretation_ko": "네 마리 말이 끄는 수레를 타는 꿈은 좋아 보여도 실제로는 안 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "以羊駕車事不常",
+    "interpretation_ko": "양이 끄는 수레를 타는 꿈은 하는 일이 순조롭지 못하다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "備馬者主遠行事",
+    "interpretation_ko": "말을 준비하는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "船車遊行物件",
+    "source_zh": "遠行出入命通達",
+    "interpretation_ko": "먼 길을 오가는 꿈은 앞길이 크게 트인다는 좋은 징조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "見四路通名利遂",
+    "interpretation_ko": "사방으로 뚫린 길을 보는 꿈은 원하는 명예와 재물을 이루게 된다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "道中得財主通達",
+    "interpretation_ko": "길을 가다가 재물을 줍는 꿈은 앞길이 크게 트인다는 좋은 징조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "道泥荊棘事不成",
+    "interpretation_ko": "길이 진흙탕이고 가시덤불로 막힌 꿈은 하려는 일이 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "大道崩陷主失財",
+    "interpretation_ko": "큰길이 무너지고 꺼지는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "修橋樑者萬事和",
+    "interpretation_ko": "다리를 고치는 꿈은 모든 일이 순조롭게 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "見渡橋主有官事",
+    "interpretation_ko": "다리를 건너는 것을 보는 꿈은 관청과 관련된 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "橋上坐主祿位至",
+    "interpretation_ko": "다리 위에 앉아 있는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "見橋壞主有官事",
+    "interpretation_ko": "다리가 부서진 것을 보는 꿈은 관청과 관련된 골치 아픈 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "攜手上橋妻有孕",
+    "interpretation_ko": "손을 잡고 다리 위에 오르는 꿈은 아내가 아이를 갖게 된다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "橋上呼喚訟得理",
+    "interpretation_ko": "다리 위에서 누군가 부르는 소리를 듣는 꿈은 다투는 일에서 유리하게 풀린다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "新造橋者大和合",
+    "interpretation_ko": "새로 다리를 놓는 꿈은 집안과 주변이 크게 화목해진다는 좋은 징조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "橋斷者主有口舌",
+    "interpretation_ko": "다리가 끊어진 꿈은 다른 사람과 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "橋柱折者子孫凶",
+    "interpretation_ko": "다리 기둥이 부러지는 꿈은 자손에게 안 좋은 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "橋路上往車皆凶",
+    "interpretation_ko": "다리 위로 수레가 오가는 것을 보는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "夫妻入市主置產",
+    "interpretation_ko": "부부가 함께 시장에 들어가는 꿈은 살림이 늘고 재산을 마련하게 된다는 뜻입니다"
+  },
+  {
+    "category": "道路橋梁市集",
+    "source_zh": "見市中無人主凶",
+    "interpretation_ko": "시장에 사람이 하나도 없는 것을 보는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻宴會主相別",
+    "interpretation_ko": "부부가 함께 잔치를 벌이는 꿈은 오히려 서로 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻相罵主病患",
+    "interpretation_ko": "부부가 서로 다투며 욕하는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻分釵主離別",
+    "interpretation_ko": "부부가 비녀를 나누어 갖는 꿈은 서로 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻相打欲和會",
+    "interpretation_ko": "부부가 서로 다투고 때리는 꿈은 오히려 다시 화해하게 된다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "同婦人行主失財",
+    "interpretation_ko": "낯선 여자와 함께 길을 가는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "抱婦人主有喜事",
+    "interpretation_ko": "여자를 품에 안는 꿈은 기쁜 일이 생긴다는 좋은 징조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "與婦人交有邪祟",
+    "interpretation_ko": "낯선 여자와 정을 나누는 꿈은 좋지 않은 기운이 낀다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "與婦人共坐大吉",
+    "interpretation_ko": "여자와 나란히 앉아 있는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "抱夫主大得財喜",
+    "interpretation_ko": "남편을 품에 안는 꿈은 큰 재물과 기쁜 일을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "婦人與夫入水吉",
+    "interpretation_ko": "아내와 남편이 함께 물속에 들어가는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻各與梳頭吉",
+    "interpretation_ko": "부부가 서로 머리를 빗겨주는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "夫妻相拜主分散",
+    "interpretation_ko": "부부가 서로 마주 보고 절하는 꿈은 헤어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "交接男子主失財",
+    "interpretation_ko": "낯선 남자와 정을 나누는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "妻著錦衣生貴子",
+    "interpretation_ko": "아내가 화려한 비단옷을 입는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "妻有孕主外私情",
+    "interpretation_ko": "아내가 아이를 밴 꿈은 바깥에서 부정한 정을 나누는 일이 생길 수 있다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "見婦人陰主口舌",
+    "interpretation_ko": "여자의 은밀한 부위를 보는 꿈은 다른 사람과 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "婦人赤身主大吉",
+    "interpretation_ko": "여자가 알몸으로 있는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "男子裸體命通達",
+    "interpretation_ko": "남자가 알몸으로 있는 꿈은 앞길이 크게 트인다는 좋은 징조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "兄弟分別口舌臨",
+    "interpretation_ko": "형제가 서로 헤어지는 꿈은 다른 사람과 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "抱小兒女主口舌",
+    "interpretation_ko": "어린 아이를 품에 안는 꿈은 다른 사람과 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "小兒死者主口舌",
+    "interpretation_ko": "어린 아이가 죽는 꿈은 다른 사람과 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "新生男女主大吉",
+    "interpretation_ko": "갓난아이가 새로 태어나는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "見嫁娶及孝主凶",
+    "interpretation_ko": "혼인 잔치나 상을 치르는 모습을 보는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "夫妻產孕交懽",
+    "source_zh": "男子化為尼姑凶",
+    "interpretation_ko": "남자가 비구니로 변하는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "人請飲酒主長命",
+    "interpretation_ko": "누군가 술을 청하여 함께 마시는 꿈은 오래도록 건강하게 산다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "與人飲酒有口舌",
+    "interpretation_ko": "다른 사람과 함께 술을 마시는 꿈은 말다툼할 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "與人吃會富貴至",
+    "interpretation_ko": "다른 사람들과 함께 음식을 나누는 꿈은 부귀를 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "筵會客人家欲破",
+    "interpretation_ko": "잔치를 벌여 손님을 맞이하는 꿈은 오히려 집안 살림이 어려워질 수 있다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "飲酒者主哭泣事",
+    "interpretation_ko": "홀로 술을 마시는 꿈은 슬퍼서 울 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "飲酒至醉主疾病",
+    "interpretation_ko": "술에 잔뜩 취하도록 마시는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "貴人賜宴主疾病",
+    "interpretation_ko": "귀한 분이 잔치를 베풀어주는 꿈은 몸에 병이 생길 수 있다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "與貴人對飲大吉",
+    "interpretation_ko": "귀한 분과 마주 앉아 술을 나누는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "人請吃酥酪主喜",
+    "interpretation_ko": "누군가 부드러운 유제품을 대접해주는 꿈은 기쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "與人吃乳尊親至",
+    "interpretation_ko": "다른 사람과 함께 젖을 나눠 먹는 꿈은 존귀한 분이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "與人吃蜜大吉利",
+    "interpretation_ko": "다른 사람과 함께 꿀을 먹는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "嘔吐者病人主瘥",
+    "interpretation_ko": "토하는 꿈은 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食水者主得大利",
+    "interpretation_ko": "물을 마시는 꿈은 큰 이득을 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "死人食者主疾病",
+    "interpretation_ko": "죽은 사람과 함께 음식을 먹는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食牛肉於堂上吉",
+    "interpretation_ko": "집안 대청에서 소고기를 먹는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食犬肉主有爭訟",
+    "interpretation_ko": "개고기를 먹는 꿈은 다른 사람과 다투거나 송사에 휘말릴 수 있다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食豬肉主疾病至",
+    "interpretation_ko": "돼지고기를 먹는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "刀割豬肉主生病",
+    "interpretation_ko": "칼로 돼지고기를 자르는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食生肉凶熟肉吉",
+    "interpretation_ko": "날고기를 먹는 꿈은 안 좋지만 익힌 고기를 먹는 꿈은 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食自死肉主別離",
+    "interpretation_ko": "저절로 죽은 짐승의 고기를 먹는 꿈은 가까운 사람과 헤어지게 된다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食鵝肉主妾疾病",
+    "interpretation_ko": "거위고기를 먹는 꿈은 집안 여자에게 병이 생길 수 있다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食雞鴨等肉皆吉",
+    "interpretation_ko": "닭고기나 오리고기를 먹는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食饅頭主口舌散",
+    "interpretation_ko": "만두를 먹는 꿈은 말다툼거리가 사라진다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "見饅頭未食主氣",
+    "interpretation_ko": "만두를 보고도 먹지 못하는 꿈은 답답하고 화나는 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食爛瓜主生疾病",
+    "interpretation_ko": "썩은 오이를 먹는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食餅食飯心不遂",
+    "interpretation_ko": "떡이나 밥을 먹는 꿈은 바라는 일이 뜻대로 되지 않는다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食瓜子主生貴子",
+    "interpretation_ko": "참외씨를 먹는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食柿食柑主疾病",
+    "interpretation_ko": "감이나 귤을 먹는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食柿桃離而復合",
+    "interpretation_ko": "감과 복숭아를 함께 먹는 꿈은 헤어졌던 사람과 다시 만나게 된다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食棗者主生貴子",
+    "interpretation_ko": "대추를 먹는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食桑椹主生貴子",
+    "interpretation_ko": "오디를 먹는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食粟者主有分離",
+    "interpretation_ko": "조로 지은 곡식을 먹는 꿈은 가까운 사람과 헤어지게 된다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食梨者主失財帛",
+    "interpretation_ko": "배를 먹는 꿈은 재물을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食一切菜者凶至",
+    "interpretation_ko": "온갖 나물을 먹는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食茄者主妻有子",
+    "interpretation_ko": "가지를 먹는 꿈은 아내가 아이를 갖게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食蔥韭主有爭鬥",
+    "interpretation_ko": "파나 부추를 먹는 꿈은 다른 사람과 다투게 된다는 뜻입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食薤者有重傷至",
+    "interpretation_ko": "염교를 먹는 꿈은 크게 다칠 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食蒜者主災害至",
+    "interpretation_ko": "마늘을 먹는 꿈은 뜻하지 않은 재난을 겪을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食菜見菜黃主凶",
+    "interpretation_ko": "나물이 누렇게 시든 것을 보는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "飲食酒肉瓜菜",
+    "source_zh": "食油鹽醬酸豉吉",
+    "interpretation_ko": "기름, 소금, 장, 식초, 된장 같은 것을 먹는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓高者大吉利",
+    "interpretation_ko": "무덤이 우뚝 높이 솟아 있는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "新塚棺槨主憂除",
+    "interpretation_ko": "새로 만든 무덤이나 관을 보는 꿈은 걱정거리가 사라진다는 뜻입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓上有雲氣吉",
+    "interpretation_ko": "무덤 위에 구름 기운이 서려 있는 꿈은 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓門開百事吉",
+    "interpretation_ko": "무덤의 문이 열려 있는 꿈은 모든 일이 잘 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓上明吉暗凶",
+    "interpretation_ko": "무덤이 환하게 밝은 꿈은 좋은 일이, 어둡고 캄캄한 꿈은 안 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓生樹吉折凶",
+    "interpretation_ko": "무덤에 나무가 자라는 꿈은 좋은 일이, 그 나무가 부러지는 꿈은 안 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "塚墓上開花大吉",
+    "interpretation_ko": "무덤 위에 꽃이 활짝 피어 있는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "棺自出墓中大吉",
+    "interpretation_ko": "관이 저절로 무덤 밖으로 나오는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "抬棺入宅祿位至",
+    "interpretation_ko": "관을 들고 집 안으로 들어오는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "死人出棺外客至",
+    "interpretation_ko": "죽은 사람이 관 밖으로 나오는 꿈은 반가운 손님이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "開棺與死人言凶",
+    "interpretation_ko": "관을 열고 죽은 사람과 이야기를 나누는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "棺殮死人主得財",
+    "interpretation_ko": "죽은 사람을 관에 넣어 염하는 꿈은 재물을 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "見棺水上大得財",
+    "interpretation_ko": "관이 물 위에 떠 있는 것을 보는 꿈은 큰 재물을 얻게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "塚墓棺槨迎送",
+    "source_zh": "空遠無人主遠行",
+    "interpretation_ko": "아득히 먼 곳에 인적이 없는 것을 보는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "各色經書大富貴",
+    "interpretation_ko": "여러 가지 빛깔의 경서를 보는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "五色紙者大益財",
+    "interpretation_ko": "오색 빛깔의 종이를 보는 꿈은 재물이 크게 늘어난다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "吞五色紙詩書進",
+    "interpretation_ko": "오색 종이를 삼키는 꿈은 학문이나 시험 운이 크게 트인다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "几上有書祿位至",
+    "interpretation_ko": "책상 위에 책이 놓여 있는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "詩文書寫字大吉",
+    "interpretation_ko": "시나 글을 짓고 글씨를 쓰는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "有人教書大富貴",
+    "interpretation_ko": "누군가 글을 가르쳐주는 꿈은 큰 부귀를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "見讀書者主聰明",
+    "interpretation_ko": "책을 읽는 사람을 보는 꿈은 머리가 총명해진다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "觀人讀書生貴子",
+    "interpretation_ko": "다른 사람이 책 읽는 모습을 보는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "得曆日者中黃甲",
+    "interpretation_ko": "달력을 얻는 꿈은 시험에서 크게 좋은 성적을 거두게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "封書信者主通達",
+    "interpretation_ko": "편지를 써서 봉하는 꿈은 하는 일이 순조롭게 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "手弄筆硯主遠信",
+    "interpretation_ko": "손으로 붓과 벼루를 만지작거리는 꿈은 먼 곳에서 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "人與墨者文章進",
+    "interpretation_ko": "누군가 먹을 건네주는 꿈은 글재주와 학문이 크게 나아진다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "人將己筆文章退",
+    "interpretation_ko": "누군가 내 붓을 가져가는 꿈은 학업이나 시험 운이 물러난다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "他人送筆主才進",
+    "interpretation_ko": "다른 사람이 붓을 보내주는 꿈은 재주와 학문이 크게 나아진다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "君王隊伍有異名",
+    "interpretation_ko": "임금의 행렬을 보는 꿈은 남다른 명성을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "得大赦者宅舍凶",
+    "interpretation_ko": "나라의 큰 사면을 받는 꿈은 오히려 집안에 안 좋은 일이 생길 수 있다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "就人卜易主疾病",
+    "interpretation_ko": "다른 사람에게 점을 봐 달라고 하는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "受人紙錢主大吉",
+    "interpretation_ko": "다른 사람에게 지전을 받는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "公座移動主遷官",
+    "interpretation_ko": "관청의 자리가 옮겨지는 꿈은 다른 자리로 옮겨가게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "受職上官財物來",
+    "interpretation_ko": "벼슬을 받아 높은 자리에 오르는 꿈은 재물이 따라온다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "佩印公爵主大吉",
+    "interpretation_ko": "관인을 차고 벼슬자리에 오르는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "佩印執節主移居",
+    "interpretation_ko": "관인을 차고 부절을 손에 쥐는 꿈은 이사를 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "佩印信者名譽出",
+    "interpretation_ko": "관인을 몸에 차는 꿈은 좋은 명예를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "緩印改遷生貴子",
+    "interpretation_ko": "인끈을 풀고 다른 자리로 옮겨가는 꿈은 귀한 자식을 낳게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "碁子主添丁進口",
+    "interpretation_ko": "바둑돌을 보는 꿈은 집안에 새 식구가 늘어난다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "打球者主得虛名",
+    "interpretation_ko": "공을 치며 노는 꿈은 이름은 얻지만 실속은 없는 헛된 명성을 얻는다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "兵馬入城福祿至",
+    "interpretation_ko": "병사와 말이 성 안으로 들어오는 꿈은 복과 재물이 따른다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "率眾破賊所求得",
+    "interpretation_ko": "무리를 이끌고 도적을 물리치는 꿈은 바라던 일을 이루게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "在軍陣中主大吉",
+    "interpretation_ko": "군대의 진영 안에 있는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "將卒隨行主喜事",
+    "interpretation_ko": "장수와 병졸들이 뒤따라오는 꿈은 기쁜 일이 생긴다는 좋은 징조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "征人初出事未成",
+    "interpretation_ko": "싸움터로 떠나는 사람을 보는 꿈은 하려는 일이 아직 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "征人回者主疾病",
+    "interpretation_ko": "싸움터에 나갔던 사람이 돌아오는 꿈은 몸에 병이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "見軍兵敗主凶事",
+    "interpretation_ko": "군사가 싸움에 지는 것을 보는 꿈은 안 좋은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "己射人必主遠行",
+    "interpretation_ko": "자기가 활을 쏘아 남을 맞히는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "人射己有行人至",
+    "interpretation_ko": "다른 사람이 나를 향해 활을 쏘는 꿈은 먼 곳에서 사람이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "持弓矢者主大吉",
+    "interpretation_ko": "활과 화살을 손에 쥐는 꿈은 아주 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "挽弓斷弦主凶惡",
+    "interpretation_ko": "활을 당기다가 활시위가 끊어지는 꿈은 매우 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "人送弓弩得人力",
+    "interpretation_ko": "다른 사람이 활과 쇠뇌를 보내주는 꿈은 주변 사람의 도움을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "弩弦難上兄弟散",
+    "interpretation_ko": "쇠뇌의 시위를 걸기 어려운 꿈은 형제들이 뿔뿔이 흩어지게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "弓弩相鬥主爭論",
+    "interpretation_ko": "활과 쇠뇌가 서로 부딪치며 다투는 꿈은 다른 사람과 말다툼을 벌이게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "戈鉞有光祿位至",
+    "interpretation_ko": "창과 도끼가 빛나는 것을 보는 꿈은 좋은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "文書筆硯兵器",
+    "source_zh": "披甲仗劍得高官",
+    "interpretation_ko": "갑옷을 입고 칼을 쥐는 꿈은 높은 벼슬자리에 오르게 된다는 좋은 징조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "與人哭泣有慶賀",
+    "interpretation_ko": "다른 사람과 함께 우는 꿈은 오히려 경사스러운 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "放聲大哭歡樂至",
+    "interpretation_ko": "큰 소리로 우는 꿈은 오히려 기쁘고 즐거운 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "身著孝服官祿至",
+    "interpretation_ko": "상복을 입는 꿈은 벼슬과 녹봉을 얻게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "遠人來悲泣主凶",
+    "interpretation_ko": "멀리 있는 사람이 찾아와 슬피 우는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "床上哭泣主大凶",
+    "interpretation_ko": "침상에서 우는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "見歌舞者口舌至",
+    "interpretation_ko": "노래하고 춤추는 사람을 보는 꿈은 구설수에 오르내리게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "家中歡喜百事吉",
+    "interpretation_ko": "집안에 기쁜 일이 가득한 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "懷中琵琶得人助",
+    "interpretation_ko": "품속에 비파를 안고 있는 꿈은 다른 사람의 도움을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "他人與笛有名聲",
+    "interpretation_ko": "다른 사람이 피리를 부는 꿈은 이름을 널리 알리게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "與人拍板有口舌",
+    "interpretation_ko": "다른 사람과 함께 박자를 치는 꿈은 구설수에 휘말리게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "堂上歌樂主喪事",
+    "interpretation_ko": "대청에서 노래와 풍악이 울리는 꿈은 초상이 날 징조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "吹笙者主有更改",
+    "interpretation_ko": "생황을 부는 꿈은 신상에 변화가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "吹笛打鼓有吉慶",
+    "interpretation_ko": "피리를 불고 북을 치는 꿈은 경사스러운 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "他人作樂訟有理",
+    "interpretation_ko": "다른 사람이 풍악을 울리는 꿈은 소송에서 이치가 자신에게 있다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "露齒哭者有爭訟",
+    "interpretation_ko": "이를 드러내고 우는 꿈은 다툼이나 소송에 휘말리게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病臥為人扶加官",
+    "interpretation_ko": "병들어 누워 있는데 누군가 부축해주는 꿈은 벼슬이 오르게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病重者主有凶事",
+    "interpretation_ko": "병이 위중해지는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "自疾病者主有喜",
+    "interpretation_ko": "자신이 병에 걸리는 꿈은 오히려 기쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病人歌唱主大凶",
+    "interpretation_ko": "병든 사람이 노래를 부르는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病人哭笑疾病除",
+    "interpretation_ko": "병든 사람이 울다가 웃는 꿈은 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病人起者必定死",
+    "interpretation_ko": "병든 사람이 자리에서 일어나는 꿈은 오히려 세상을 떠나게 된다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "病人裝車必死亡",
+    "interpretation_ko": "병든 사람이 수레에 실리는 꿈은 목숨을 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "死人哭泣有口舌",
+    "interpretation_ko": "죽은 사람이 우는 꿈은 구설수에 오르내리게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "死人立者主大凶",
+    "interpretation_ko": "죽은 사람이 일어서 있는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "死人哭懷者得財",
+    "interpretation_ko": "죽은 사람을 품에 안고 우는 꿈은 재물을 얻게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "死人復活主有信",
+    "interpretation_ko": "죽은 사람이 다시 살아나는 꿈은 반가운 소식을 듣게 된다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "見人死自死者吉",
+    "interpretation_ko": "다른 사람이 죽거나 자신이 죽는 꿈은 오히려 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "子死者有添喜事",
+    "interpretation_ko": "자식이 죽는 꿈은 오히려 경사스러운 일이 더해진다는 뜻입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "見先亡尊長大吉",
+    "interpretation_ko": "돌아가신 조상이나 웃어른을 뵙는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "哀樂病死歌唱",
+    "source_zh": "問弔他人主生子",
+    "interpretation_ko": "다른 사람의 초상집에 조문하는 꿈은 자식을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "諸佛菩薩大吉利",
+    "interpretation_ko": "여러 부처님과 보살을 뵙는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "法師登座主疾病",
+    "interpretation_ko": "법사가 법좌에 오르는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "老君真入皆主吉",
+    "interpretation_ko": "노자나 신선이 나타나는 꿈은 모두 좋은 길조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "畫神佛者得人欽",
+    "interpretation_ko": "신불의 모습을 그리는 꿈은 다른 사람들에게 존경을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "入神廟神動大吉",
+    "interpretation_ko": "신전에 들어갔는데 신상이 움직이는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "造旛蓋者大吉利",
+    "interpretation_ko": "깃발이나 일산을 만드는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "僧師教人唸經吉",
+    "interpretation_ko": "스님이 경 읽는 법을 가르쳐주는 꿈은 좋은 일이 생길 길조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "道士女冠言語吉",
+    "interpretation_ko": "도사나 여도사가 말을 건네는 꿈은 좋은 일이 생길 길조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "和尚尼姑看經悶",
+    "interpretation_ko": "스님이나 비구니가 불경을 읽는 꿈은 마음이 답답해지는 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "被神鬼打大不祥",
+    "interpretation_ko": "귀신이나 신령에게 맞는 꿈은 매우 불길한 흉조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "堂上神佛大吉利",
+    "interpretation_ko": "대청에 신불이 모셔져 있는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "神佛不成形大凶",
+    "interpretation_ko": "신불의 형상이 제대로 갖춰지지 않은 꿈은 매우 나쁜 흉조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "燒香禮拜皆大吉",
+    "interpretation_ko": "향을 피우고 절을 올리는 꿈은 모두 매우 좋은 길조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "迎神賽社有外財",
+    "interpretation_ko": "신을 맞이하는 제사를 지내는 꿈은 뜻밖의 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "仙聖到家福祿至",
+    "interpretation_ko": "신선이나 성인이 집에 찾아오는 꿈은 복과 녹이 들어온다는 좋은 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "與鬼鬥者主延壽",
+    "interpretation_ko": "귀신과 맞서 싸우는 꿈은 수명이 늘어난다는 좋은 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "祭祀神道大吉利",
+    "interpretation_ko": "신령에게 제사를 지내는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "身受戒行者子孝",
+    "interpretation_ko": "계를 받는 꿈은 효성스러운 자식을 두게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "與神女通得貴子",
+    "interpretation_ko": "신녀와 인연을 맺는 꿈은 귀한 자식을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "與尼姑交主失財",
+    "interpretation_ko": "비구니와 가까이 지내는 꿈은 재물을 잃게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "看神佛者妻有子",
+    "interpretation_ko": "신불을 바라보는 꿈은 아내가 자식을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "佛道僧尼鬼神",
+    "source_zh": "佛共人言有福助",
+    "interpretation_ko": "부처님이 말을 건네는 꿈은 복된 도움을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被人殺害者大吉",
+    "interpretation_ko": "다른 사람에게 죽임을 당하는 꿈은 오히려 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺死他人大富貴",
+    "interpretation_ko": "다른 사람을 죽이는 꿈은 큰 부귀를 얻게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "持刀自殺者大吉",
+    "interpretation_ko": "칼을 들고 스스로를 찌르는 꿈은 오히려 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺人血污衣得財",
+    "interpretation_ko": "사람을 죽여 옷에 피가 묻는 꿈은 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被刀刺火出快利",
+    "interpretation_ko": "칼에 찔려 피가 나는 꿈은 일이 빠르게 잘 풀린다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "持刀相殺見血吉",
+    "interpretation_ko": "칼을 들고 서로 다투다 피를 보는 꿈은 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "刀傷出血主酒食",
+    "interpretation_ko": "칼에 다쳐 피가 나는 꿈은 술과 음식을 대접받을 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "砍刺見血主大吉",
+    "interpretation_ko": "칼로 베거나 찔러 피를 보는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "炙身見血流大吉",
+    "interpretation_ko": "몸이 불에 데어 피가 흐르는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "刀斧自傷主大吉",
+    "interpretation_ko": "칼이나 도끼에 스스로 다치는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "持刀斫人自失財",
+    "interpretation_ko": "칼로 다른 사람을 베는 꿈은 오히려 자신의 재물을 잃게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "人砍頭腦中二吉",
+    "interpretation_ko": "머리를 베이는 꿈은 오히려 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被人打者主得力",
+    "interpretation_ko": "다른 사람에게 맞는 꿈은 오히려 힘이 되는 도움을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被人腳踢主求財",
+    "interpretation_ko": "다른 사람에게 발길질을 당하는 꿈은 재물을 구하게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "打妻妾者主失力",
+    "interpretation_ko": "아내나 첩을 때리는 꿈은 힘을 잃게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "家中人鬥主分散",
+    "interpretation_ko": "집안 사람들이 서로 다투는 꿈은 가족이 뿔뿔이 흩어지게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "斷頭而行主大喜",
+    "interpretation_ko": "머리가 잘린 채 걸어 다니는 꿈은 오히려 큰 기쁨을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "女人相打主病至",
+    "interpretation_ko": "여자들끼리 서로 싸우는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "兄弟相打大吉利",
+    "interpretation_ko": "형제끼리 서로 싸우는 꿈은 오히려 매우 길한 징조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被妻妾打主凶事",
+    "interpretation_ko": "아내나 첩에게 맞는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "看見殺人主大吉",
+    "interpretation_ko": "사람이 죽임을 당하는 것을 보는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被人簽刺大吉昌",
+    "interpretation_ko": "다른 사람에게 찔리는 꿈은 매우 길하고 번창할 징조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "手措折者主子病",
+    "interpretation_ko": "손을 다쳐 부러지는 꿈은 자식이 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "向人叩頭百事吉",
+    "interpretation_ko": "다른 사람에게 절을 올리는 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "與人相罵者主吉",
+    "interpretation_ko": "다른 사람과 서로 욕하며 다투는 꿈은 오히려 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被罵佯顛大貴至",
+    "interpretation_ko": "욕을 먹고 미친 척하는 꿈은 큰 귀함을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "被人凌辱主得財",
+    "interpretation_ko": "다른 사람에게 모욕을 당하는 꿈은 오히려 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺豬豖者大吉利",
+    "interpretation_ko": "돼지를 잡는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺羊打羊主病凶",
+    "interpretation_ko": "양을 잡거나 때리는 꿈은 병을 앓게 되는 흉조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺虎豹主得重印",
+    "interpretation_ko": "호랑이나 표범을 잡는 꿈은 중요한 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺牛鹿者大富貴",
+    "interpretation_ko": "소나 사슴을 잡는 꿈은 큰 부귀를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺牛食肉主生財",
+    "interpretation_ko": "소를 잡아 고기를 먹는 꿈은 재물이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺驢騾馬有酒食",
+    "interpretation_ko": "당나귀나 노새, 말을 잡는 꿈은 술과 음식을 대접받게 된다는 뜻입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺龜者主有喪事",
+    "interpretation_ko": "거북을 잡는 꿈은 초상이 날 흉조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺鳥雀妻妾災難",
+    "interpretation_ko": "새나 참새를 잡는 꿈은 아내나 첩에게 재난이 닥친다는 흉조입니다"
+  },
+  {
+    "category": "被害鬥傷打罵",
+    "source_zh": "殺雞鵝鴨主大吉",
+    "interpretation_ko": "닭이나 거위, 오리를 잡는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "牢獄崩壞有赦吉",
+    "interpretation_ko": "감옥이 무너지는 꿈은 사면을 받게 되는 좋은 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "坐獄中必有恩赦",
+    "interpretation_ko": "감옥에 갇혀 있는 꿈은 반드시 은혜로운 사면을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "入獄愛災主榮貴",
+    "interpretation_ko": "감옥에 들어가 재난을 겪는 꿈은 오히려 영예와 부귀를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "獄中死者官事散",
+    "interpretation_ko": "감옥 안에서 죽는 꿈은 소송이나 관재가 풀리게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "使人入獄得財吉",
+    "interpretation_ko": "다른 사람을 감옥에 보내는 꿈은 재물을 얻게 되는 좋은 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "入牢獄主有大貴",
+    "interpretation_ko": "감옥에 들어가는 꿈은 오히려 큰 부귀를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "盜賊自入獄大凶",
+    "interpretation_ko": "도둑이 제 발로 감옥에 들어가는 꿈은 매우 나쁜 흉조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "牢獄臭污百事吉",
+    "interpretation_ko": "감옥이 더럽고 냄새나는 꿈은 모든 일이 잘 풀린다는 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "罪人走脫疾病去",
+    "interpretation_ko": "죄인이 감옥에서 도망치는 꿈은 앓던 병이 낫는다는 좋은 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "趕賊行見者大吉",
+    "interpretation_ko": "도둑을 쫓아가는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "枷銷臨身疾病至",
+    "interpretation_ko": "목에 칼을 쓰는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "枷鎖折損口舌散",
+    "interpretation_ko": "목에 쓴 칼이 부서지는 꿈은 구설수가 사라진다는 좋은 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "枷鎖入宅主大凶",
+    "interpretation_ko": "목에 쓰는 칼이 집안으로 들어오는 꿈은 매우 나쁜 흉조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "繩索繫身大吉利",
+    "interpretation_ko": "몸이 밧줄에 묶이는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "身被羅網主官事",
+    "interpretation_ko": "몸이 그물에 걸리는 꿈은 관재나 소송이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "被羅網罩主酒食",
+    "interpretation_ko": "그물에 뒤덮이는 꿈은 술과 음식을 대접받게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "被人決罰祿位至",
+    "interpretation_ko": "다른 사람에게 벌을 받는 꿈은 오히려 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "被人作賤者大吉",
+    "interpretation_ko": "다른 사람에게 천대를 받는 꿈은 오히려 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "被人綁住疾病至",
+    "interpretation_ko": "다른 사람에게 몸이 묶이는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "被官打身主孝服",
+    "interpretation_ko": "관아에서 매를 맞는 꿈은 상복을 입을 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "自以杖決恥辱生",
+    "interpretation_ko": "스스로 매를 맞는 꿈은 수치스러운 일을 겪게 된다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "枷鎖怕怖主分散",
+    "interpretation_ko": "목에 칼을 쓰고 두려워하는 꿈은 가족이 뿔뿔이 흩어지게 된다는 흉조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "入官詞訟主大吉",
+    "interpretation_ko": "관아에 들어가 소송을 벌이는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "邀人入官主大吉",
+    "interpretation_ko": "다른 사람을 데리고 관아에 들어가는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "吏引入司主大吉",
+    "interpretation_ko": "관리가 관청으로 이끌고 가는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "為吏所錄有急事",
+    "interpretation_ko": "관리에게 이름이 기록되는 꿈은 급한 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "貴人走馬官事明",
+    "interpretation_ko": "귀한 분이 말을 타고 달리는 꿈은 관재나 소송이 명백히 풀린다는 뜻입니다"
+  },
+  {
+    "category": "捕禁刑罰獄具",
+    "source_zh": "拷訊杖責主大吉",
+    "interpretation_ko": "매를 맞으며 심문을 당하는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "田中生草主得財",
+    "interpretation_ko": "밭에 풀이 자라는 꿈은 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "種田廣大有祿位",
+    "interpretation_ko": "넓은 밭에 농사를 짓는 꿈은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "自種田禾主出行",
+    "interpretation_ko": "직접 벼를 심는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "見種田者祿位至",
+    "interpretation_ko": "농사짓는 사람을 보는 꿈은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "教人耕種遠行至",
+    "interpretation_ko": "다른 사람에게 농사짓는 법을 가르치는 꿈은 먼 길을 떠나게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "使人種田地大吉",
+    "interpretation_ko": "다른 사람에게 밭농사를 시키는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "買人田宅主進職",
+    "interpretation_ko": "다른 사람의 밭과 집을 사들이는 꿈은 벼슬이 오르게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "身在禾中大吉利",
+    "interpretation_ko": "벼가 자란 논 한가운데 있는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "破敗田地主大吉",
+    "interpretation_ko": "밭이 못쓰게 망가지는 꿈은 오히려 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "割收田禾家居安",
+    "interpretation_ko": "벼를 베어 거두어들이는 꿈은 집안이 평안해진다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "屋上生禾官位吉",
+    "interpretation_ko": "지붕 위에 벼가 자라는 꿈은 벼슬자리를 얻게 되는 좋은 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "禾苗豊熟富貴長",
+    "interpretation_ko": "벼가 무럭무럭 자라 풍성히 여무는 꿈은 부귀가 오래도록 이어진다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "見麥稻主得大財",
+    "interpretation_ko": "보리나 벼를 보는 꿈은 큰 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "粳精米者有財吉",
+    "interpretation_ko": "좋은 쌀을 보는 꿈은 재물을 얻게 되는 좋은 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "五穀茂盛主得財",
+    "interpretation_ko": "오곡이 무성하게 자라는 꿈은 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "穀穗齊秀大吉利",
+    "interpretation_ko": "이삭이 가지런히 여무는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "米谷堆吉散主凶",
+    "interpretation_ko": "쌀이 쌓여 있으면 좋은 일이 생기고 흩어져 있으면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "大小麥主妻私心",
+    "interpretation_ko": "밀이나 보리를 보는 꿈은 아내에게 딴마음이 있다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "大豆苗葉子孫凶",
+    "interpretation_ko": "콩의 싹과 잎을 보는 꿈은 자손에게 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "米麥相排大吉利",
+    "interpretation_ko": "쌀과 보리가 나란히 놓인 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "坐臥米麥主大吉",
+    "interpretation_ko": "쌀과 보리 위에 앉거나 눕는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "手中把榖主福祿",
+    "interpretation_ko": "손에 곡식을 쥐고 있는 꿈은 복과 녹을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "得禾榖者主大吉",
+    "interpretation_ko": "벼나 곡식을 얻는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "得禾忽失主得志",
+    "interpretation_ko": "벼를 얻었다가 갑자기 잃어버리는 꿈은 오히려 뜻을 이루게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "粟米必有獻物至",
+    "interpretation_ko": "좁쌀을 보는 꿈은 선물이나 공물을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "種菜主長命大吉",
+    "interpretation_ko": "채소를 심는 꿈은 장수하게 되는 매우 좋은 길조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "喬麥麵餅官事遷",
+    "interpretation_ko": "메밀국수나 떡을 보는 꿈은 관청의 일이 바뀌게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "麵糠相交家欲儉",
+    "interpretation_ko": "밀가루와 겨가 뒤섞인 꿈은 집안 살림을 아껴 써야 한다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "涓麴必主枉屈事",
+    "interpretation_ko": "누룩을 보는 꿈은 억울한 일을 겪게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "萌芽者主惡事連",
+    "interpretation_ko": "새싹이 돋아나는 꿈은 나쁜 일이 잇따라 생긴다는 흉조입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "麻叢身者主疾至",
+    "interpretation_ko": "삼베 더미가 몸을 둘러싸는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "田園五榖耕種",
+    "source_zh": "麻生如林大吉利",
+    "interpretation_ko": "삼이 숲처럼 무성하게 자라는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "水上行者主大吉",
+    "interpretation_ko": "물 위를 걸어가는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "水上立者主凶事",
+    "interpretation_ko": "물 위에 서 있는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "水流洋洋有新婚",
+    "interpretation_ko": "물이 넘실넘실 흐르는 꿈은 혼인을 하게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "水上火出主大吉",
+    "interpretation_ko": "물 위에서 불이 솟아나는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "自在水中大吉利",
+    "interpretation_ko": "스스로 물속에 있는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "自跌水中不出凶",
+    "interpretation_ko": "물에 빠져 나오지 못하는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "飲水不休得大財",
+    "interpretation_ko": "물을 끊임없이 마시는 꿈은 큰 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "流水遶身有獄訟",
+    "interpretation_ko": "흐르는 물이 몸을 휘감는 꿈은 관재나 소송에 휘말리게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "大水澄清大吉利",
+    "interpretation_ko": "큰물이 맑고 깨끗한 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "人家有水兒子亡",
+    "interpretation_ko": "집안에 물이 차 있는 꿈은 자식에게 좋지 않은 일이 생길 흉조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "江海漲漫大吉昌",
+    "interpretation_ko": "강물이나 바닷물이 넘쳐흐르는 꿈은 매우 길하고 번창할 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "河水沙石益文章",
+    "interpretation_ko": "강물에 모래와 돌이 보이는 꿈은 글재주가 늘게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火燒日月有人助",
+    "interpretation_ko": "불이 해와 달을 태우는 꿈은 다른 사람의 도움을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火燒河水長命吉",
+    "interpretation_ko": "불이 강물을 태우는 꿈은 오래 살게 되는 좋은 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火燒山野大顯達",
+    "interpretation_ko": "불이 산과 들을 태우는 꿈은 크게 이름을 떨치게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火燒自屋主興旺",
+    "interpretation_ko": "자기 집이 불에 타는 꿈은 집안이 번창하게 된다는 좋은 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火焰炎炎主發財",
+    "interpretation_ko": "불꽃이 활활 타오르는 꿈은 재물이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火從地生疾病至",
+    "interpretation_ko": "땅에서 불이 솟아나는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "執火乘行官位至",
+    "interpretation_ko": "불을 들고 길을 가는 꿈은 벼슬자리를 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "大火燒天主國安",
+    "interpretation_ko": "큰불이 하늘을 태우는 꿈은 나라가 평안해진다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "身在火中貴人扶",
+    "interpretation_ko": "몸이 불 속에 있는 꿈은 귀한 분의 도움을 받게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "火煙黑色主疾病",
+    "interpretation_ko": "불에서 검은 연기가 나는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "把火行路大通達",
+    "interpretation_ko": "불을 들고 길을 걸어가는 꿈은 하는 일이 크게 잘 풀린다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "把火燒井主疾病",
+    "interpretation_ko": "불로 우물을 태우는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "宅中火光大吉利",
+    "interpretation_ko": "집안에 불빛이 환하게 비치는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "廚中火出有急事",
+    "interpretation_ko": "부엌에서 불이 나는 꿈은 급한 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "聽選燃火作明府",
+    "interpretation_ko": "불을 밝히고 벼슬을 기다리는 꿈은 높은 관직에 오르게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "燒人臭穢主大吉",
+    "interpretation_ko": "사람이 타서 고약한 냄새가 나는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "見燭者主大發財",
+    "interpretation_ko": "촛불을 보는 꿈은 큰 재물을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "燈燭光明主大吉",
+    "interpretation_ko": "등불이나 촛불이 환하게 빛나는 꿈은 매우 좋은 길조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "眾人闈爐和合吉",
+    "interpretation_ko": "여러 사람이 화로 곁에 둘러앉아 화목하게 지내는 꿈은 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "惡人相引疾病至",
+    "interpretation_ko": "나쁜 사람들이 서로 이끄는 꿈은 병을 앓게 된다는 뜻입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "趕賊入市不出凶",
+    "interpretation_ko": "도둑을 쫓아 저잣거리로 들어갔는데 나오지 못하는 꿈은 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "強賊入宅主家破",
+    "interpretation_ko": "강도가 집안으로 들어오는 꿈은 집안이 망하게 된다는 흉조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "與賊同行大吉利",
+    "interpretation_ko": "도둑과 함께 길을 가는 꿈은 매우 길한 징조입니다"
+  },
+  {
+    "category": "水火盜賊燈燭",
+    "source_zh": "己身作賊所求得",
+    "interpretation_ko": "자신이 도둑이 되는 꿈은 바라던 것을 얻게 된다는 뜻입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "尿屎污身主得財",
+    "interpretation_ko": "몸에 대소변이 묻는 꿈은 재물을 얻는다는 좋은 징조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "大便滿地主富貴",
+    "interpretation_ko": "바닥에 대변이 가득한 꿈은 부귀를 얻는다는 길조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "處廁中得官祿位",
+    "interpretation_ko": "화장실 안에 있는 꿈은 벼슬자리를 얻는다는 길조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "落廁出吉不出凶",
+    "interpretation_ko": "화장실에 빠지는 꿈은 거기서 빠져나오면 좋은 일이 생기지만 빠져나오지 못하면 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "廁屋上臥主得財",
+    "interpretation_ko": "화장실 위에 누워 있는 꿈은 재물을 얻는다는 뜻입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "廁中乾者主家破",
+    "interpretation_ko": "화장실이 바싹 말라 있는 꿈은 집안이 망할 수 있다는 흉조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "架廁屋主有財喜",
+    "interpretation_ko": "화장실을 새로 짓는 꿈은 재물이 생기는 기쁜 일이 있다는 뜻입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "挑糞回家大吉利",
+    "interpretation_ko": "똥을 짊어지고 집으로 돌아오는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "在泥中所求不成",
+    "interpretation_ko": "진흙 속에 있는 꿈은 바라는 일이 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "失大小便主失財",
+    "interpretation_ko": "대소변을 지리는 꿈은 재물을 잃는다는 흉조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "污泥衣裳主產凶",
+    "interpretation_ko": "옷에 진흙이 묻는 꿈은 출산에 좋지 않은 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "泥污衫衣主身辱",
+    "interpretation_ko": "옷에 진흙이 묻어 더러워지는 꿈은 자신이 망신을 당할 수 있다는 흉조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "男女沐浴上床凶",
+    "interpretation_ko": "남녀가 목욕하고 잠자리에 드는 꿈은 좋지 않은 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "沐浴塵土疾病安",
+    "interpretation_ko": "먼지를 뒤집어쓰고 목욕하는 꿈은 앓던 병이 편안해진다는 좋은 징조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "洗頭遷居疾病除",
+    "interpretation_ko": "머리를 감는 꿈은 이사를 하거나 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "垢污沐浴凌辱",
+    "source_zh": "被辱罵惹人詞訟",
+    "interpretation_ko": "누군가에게 욕을 먹고 모욕당하는 꿈은 시비나 다툼에 휘말릴 수 있다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "乘龍入水有貴位",
+    "interpretation_ko": "용을 타고 물속으로 들어가는 꿈은 귀한 지위를 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍眠水中求事遂",
+    "interpretation_ko": "용이 물속에서 잠자는 꿈은 바라던 일이 이루어진다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍當門者大吉昌",
+    "interpretation_ko": "용이 문 앞에 있는 꿈은 매우 크게 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍死亡主失貴位",
+    "interpretation_ko": "용이 죽는 꿈은 얻었던 귀한 지위를 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "乘龍上山所求遂",
+    "interpretation_ko": "용을 타고 산에 오르는 꿈은 바라던 일이 이루어진다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍入井中官被辱",
+    "interpretation_ko": "용이 우물 속으로 들어가는 꿈은 벼슬자리에서 망신을 당할 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍飛有官位大貴",
+    "interpretation_ko": "용이 하늘을 나는 꿈은 큰 벼슬이나 귀한 지위를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "乘龍入市主貴位",
+    "interpretation_ko": "용을 타고 시장에 들어가는 꿈은 귀한 지위를 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍蛇入門主得財",
+    "interpretation_ko": "용이나 뱀이 문으로 들어오는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍蛇入灶有官至",
+    "interpretation_ko": "용이나 뱀이 부뚜막으로 들어오는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇化龍得貴人助",
+    "interpretation_ko": "뱀이 용으로 변하는 꿈은 귀인의 도움을 받게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "婦人見龍生貴子",
+    "interpretation_ko": "여자가 용을 보는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "龍蛇殺人主大凶",
+    "interpretation_ko": "용이나 뱀이 사람을 해치는 꿈은 매우 나쁜 일이 생긴다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇蛟人主得大財",
+    "interpretation_ko": "뱀이나 교룡이 몸을 휘감는 꿈은 큰 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇入懷中生貴子",
+    "interpretation_ko": "뱀이 품 안으로 들어오는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇行水內主榮遷",
+    "interpretation_ko": "뱀이 물속을 헤엄치는 꿈은 영전하여 출세한다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇隨人去妻外心",
+    "interpretation_ko": "뱀이 사람을 따라오는 꿈은 아내의 마음이 다른 곳에 가 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇入谷道主口舌",
+    "interpretation_ko": "뱀이 항문으로 들어오는 꿈은 시비나 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇遶身者生貴子",
+    "interpretation_ko": "뱀이 몸을 휘감는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇多者主陰司事",
+    "interpretation_ko": "뱀이 많이 나오는 꿈은 저승이나 음침한 일과 관련이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇赤黑口舌青吉",
+    "interpretation_ko": "붉거나 검은 뱀이 나오는 꿈은 시비가 생기지만 푸른 뱀이 나오는 꿈은 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "蛇黃白主有官事",
+    "interpretation_ko": "누렇거나 하얀 뱀이 나오는 꿈은 관청과 관련된 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鳳凰主有貴人助",
+    "interpretation_ko": "봉황을 보는 꿈은 귀인의 도움을 받는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鳳集掌上母病至",
+    "interpretation_ko": "봉황이 손바닥 위에 내려앉는 꿈은 어머니가 병을 앓게 될 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "孔雀者主大吉利",
+    "interpretation_ko": "공작을 보는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鶴上天主小口災",
+    "interpretation_ko": "학이 하늘로 날아오르는 꿈은 어린 자식에게 안 좋은 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鶴鳴者祿位大顯",
+    "interpretation_ko": "학이 우는 꿈은 벼슬과 지위가 크게 드러난다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鶴入懷中生貴子",
+    "interpretation_ko": "학이 품 안으로 들어오는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鶴駕車主征代事",
+    "interpretation_ko": "학이 수레를 끄는 꿈은 멀리 나가 싸우거나 원정을 떠날 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "放鶴者主得財吉",
+    "interpretation_ko": "학을 풀어주는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "孔雀飛舞有文章",
+    "interpretation_ko": "공작이 춤추듯 나는 꿈은 글재주로 이름을 떨친다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鸚鵡婦人主口舌",
+    "interpretation_ko": "여자가 앵무새를 보는 꿈은 시비나 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鴛鴦散去主妻凶",
+    "interpretation_ko": "원앙이 흩어져 날아가는 꿈은 아내에게 좋지 않은 일이 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鳧入宅主有大凶",
+    "interpretation_ko": "들오리가 집 안으로 들어오는 꿈은 큰 흉한 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "駕鷂者主祿位至",
+    "interpretation_ko": "매를 부리는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鳩鳴者婦人口舌",
+    "interpretation_ko": "비둘기가 우는 꿈은 여자들 사이에 말다툼이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "燕飛入懷妻貴子",
+    "interpretation_ko": "제비가 품 안으로 날아드는 꿈은 아내가 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "燕子至有遠客來",
+    "interpretation_ko": "제비가 날아오는 꿈은 멀리서 손님이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "空中鳥鳴主妻亡",
+    "interpretation_ko": "하늘에서 새가 우는 꿈은 아내를 잃을까 걱정되는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "飛鳥入懷皆主吉",
+    "interpretation_ko": "새가 품 안으로 날아드는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "捉住飛鳥遠信至",
+    "interpretation_ko": "날아가는 새를 붙잡는 꿈은 멀리서 소식이 온다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "雀鼠爭鬥有官事",
+    "interpretation_ko": "참새와 쥐가 다투는 꿈은 관청과 관련된 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鴉雀相噪主酒食",
+    "interpretation_ko": "까마귀와 참새가 시끄럽게 우는 꿈은 술과 음식을 대접받을 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鵝鴨同游添好妾",
+    "interpretation_ko": "거위와 오리가 함께 노니는 꿈은 좋은 인연을 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鳥赴蛇來人引薦",
+    "interpretation_ko": "새가 날아가고 뱀이 다가오는 꿈은 누군가 나서서 이끌어준다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "洗雞得官鳴口舌",
+    "interpretation_ko": "닭을 씻는 꿈은 벼슬을 얻지만 닭이 우는 꿈은 시비가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "雞抱卵主有大喜",
+    "interpretation_ko": "닭이 알을 품는 꿈은 큰 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "雞在樹上主得財",
+    "interpretation_ko": "닭이 나무 위에 있는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "麒麟者名震天下",
+    "interpretation_ko": "기린을 보는 꿈은 이름을 세상에 크게 떨친다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "白象江豬官位至",
+    "interpretation_ko": "흰 코끼리나 강돼지를 보는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "獅子叫吼聲名震",
+    "interpretation_ko": "사자가 크게 울부짖는 꿈은 명성을 크게 떨친다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "猛虎大吼主得官",
+    "interpretation_ko": "사나운 호랑이가 크게 울부짖는 꿈은 벼슬을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "騎虎行者無惡事",
+    "interpretation_ko": "호랑이를 타고 다니는 꿈은 나쁜 일이 생기지 않는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "虎入宅中官職重",
+    "interpretation_ko": "호랑이가 집 안으로 들어오는 꿈은 벼슬이 높아진다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "虎狼不動見官吉",
+    "interpretation_ko": "호랑이나 이리가 움직이지 않고 가만히 있는 꿈은 관청 일에 좋은 징조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "豹狼惡狗有盜賊",
+    "interpretation_ko": "표범이나 이리, 사나운 개가 나타나는 꿈은 도둑을 조심해야 한다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "狼啖腳者主不得",
+    "interpretation_ko": "이리가 발을 물어뜯는 꿈은 바라는 일을 이루지 못한다는 흉조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "駱駝豹豸得重印",
+    "interpretation_ko": "낙타나 표범을 보는 꿈은 큰 벼슬자리에 오른다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "熊羆主身生貴子",
+    "interpretation_ko": "곰을 보는 꿈은 귀한 자식을 낳는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "群兔上天得貴位",
+    "interpretation_ko": "토끼떼가 하늘로 오르는 꿈은 귀한 지위를 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "獐鹿在家得官祿",
+    "interpretation_ko": "노루나 사슴이 집에 있는 꿈은 벼슬자리를 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "活兔在園百憂去",
+    "interpretation_ko": "살아있는 토끼가 정원에 있는 꿈은 온갖 걱정이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "貓捕鼠者大得財",
+    "interpretation_ko": "고양이가 쥐를 잡는 꿈은 큰 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "白鼠引路人提攜",
+    "interpretation_ko": "흰 쥐가 길을 안내하는 꿈은 누군가 나서서 이끌어준다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鼠咬人衣所求得",
+    "interpretation_ko": "쥐가 옷을 물어뜯는 꿈은 바라던 일이 이루어진다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "鼠大走主有喜事",
+    "interpretation_ko": "큰 쥐가 뛰어다니는 꿈은 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "山猴主有爭訟端",
+    "interpretation_ko": "산속 원숭이를 보는 꿈은 다툼이나 소송이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龍蛇禽獸等類",
+    "source_zh": "白猴主有祿位得",
+    "interpretation_ko": "흰 원숭이를 보는 꿈은 벼슬자리를 얻는다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "黃牛來家主富貴",
+    "interpretation_ko": "누런 소가 집으로 들어오는 꿈은 부귀를 얻는다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "水牛主先祖索食",
+    "interpretation_ko": "물소를 보는 꿈은 조상이 제사 음식을 찾는다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牛上山坡大吉昌",
+    "interpretation_ko": "소가 언덕을 오르는 꿈은 크게 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牽牛上山主富貴",
+    "interpretation_ko": "소를 끌고 산에 오르는 꿈은 부귀를 얻는다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牛角有血主三公",
+    "interpretation_ko": "소뿔에 피가 묻어 있는 꿈은 아주 높은 벼슬에 오른다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牛觸人凡事不成",
+    "interpretation_ko": "소가 사람을 들이받는 꿈은 하는 일이 잘 이루어지지 않는다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牛出門好事立至",
+    "interpretation_ko": "소가 문밖으로 나가는 꿈은 좋은 일이 바로 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "水牛來家主喪事",
+    "interpretation_ko": "물소가 집으로 들어오는 꿈은 초상이 날 수 있다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牛生犢所求皆得",
+    "interpretation_ko": "소가 송아지를 낳는 꿈은 바라던 일이 모두 이루어진다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "騎牛入城有喜臨",
+    "interpretation_ko": "소를 타고 성안으로 들어가는 꿈은 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "馬舞庭前凶事散",
+    "interpretation_ko": "말이 뜰 앞에서 춤추듯 뛰노는 꿈은 나쁜 일이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "牽牛羊來家歡樂",
+    "interpretation_ko": "소나 양을 끌고 집으로 오는 꿈은 즐겁고 기쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "馬行千里大喜至",
+    "interpretation_ko": "말이 천 리를 달리는 꿈은 큰 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "乘馬快吉鈍主凶",
+    "interpretation_ko": "말을 타고 빠르게 달리는 꿈은 좋은 일이 생기지만 느리고 둔하게 걷는 꿈은 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "走馬來往文書事",
+    "interpretation_ko": "말이 오가며 달리는 꿈은 문서나 서류와 관련된 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "馬駝錢物失祿位",
+    "interpretation_ko": "말이 돈과 물건을 싣고 가는 꿈은 벼슬자리를 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "馬入室主奸情事",
+    "interpretation_ko": "말이 방 안으로 들어오는 꿈은 부정한 애정 문제가 생길 수 있다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "披洗放馬皆喜事",
+    "interpretation_ko": "말을 씻기거나 풀어주는 꿈은 모두 기쁜 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "群馬奔遠百凶解",
+    "interpretation_ko": "말떼가 멀리 달려가는 꿈은 온갖 나쁜 일이 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "罪人走馬厄事去",
+    "interpretation_ko": "죄인이 말을 타고 달아나는 꿈은 재앙이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "被馬咬有祿位至",
+    "interpretation_ko": "말에게 물리는 꿈은 벼슬자리를 얻게 된다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "乘白馬者主疾病",
+    "interpretation_ko": "흰 말을 타는 꿈은 병을 앓게 될 수 있다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "騎驢騾主得財吉",
+    "interpretation_ko": "나귀나 노새를 타는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "殺豬吉豬自死凶",
+    "interpretation_ko": "돼지를 잡는 꿈은 좋은 일이 생기지만 돼지가 저절로 죽는 꿈은 나쁜 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "豬豚變人官事至",
+    "interpretation_ko": "돼지가 사람으로 변하는 꿈은 관청과 관련된 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "羊作豚行行人至",
+    "interpretation_ko": "양이 돼지처럼 행동하는 꿈은 길 떠난 사람이 돌아온다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "豬羊搔癢主口舌",
+    "interpretation_ko": "돼지나 양이 몸을 긁는 꿈은 시비가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "騎羊上街主得財",
+    "interpretation_ko": "양을 타고 거리로 나가는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "子母羊益命大吉",
+    "interpretation_ko": "어미양과 새끼양을 보는 꿈은 수명에 이롭고 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "犬吠人鬼來求食",
+    "interpretation_ko": "개가 사람을 향해 짖는 꿈은 귀신이 찾아와 제사 음식을 구하려 한다는 뜻입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "犬吠主人失財凶",
+    "interpretation_ko": "개가 짖는 꿈은 재물을 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "牛馬豬羊六畜",
+    "source_zh": "屋中生馬主大吉",
+    "interpretation_ko": "집 안에서 말이 태어나는 꿈은 크게 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "龜入井宅富貴至",
+    "interpretation_ko": "거북이가 우물이나 집 안으로 들어오는 꿈은 부귀를 얻는다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "龜蛇相同主生財",
+    "interpretation_ko": "거북이와 뱀이 함께 있는 꿈은 재물이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "見龜者主女人貴",
+    "interpretation_ko": "거북이를 보는 꿈은 여자가 귀하게 된다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "捉龜者主喪事至",
+    "interpretation_ko": "거북이를 잡는 꿈은 초상이 날 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "見鱉者主有得財",
+    "interpretation_ko": "자라를 보는 꿈은 재물을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "魚飛水上百事散",
+    "interpretation_ko": "물고기가 물 위로 날아오르는 꿈은 하던 일이 흐지부지된다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "井內有魚遷官至",
+    "interpretation_ko": "우물 안에 물고기가 있는 꿈은 벼슬이 오른다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "張網捕魚大吉利",
+    "interpretation_ko": "그물을 쳐서 물고기를 잡는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "人捕魚主食皆吉",
+    "interpretation_ko": "사람이 물고기를 잡아먹는 꿈은 모두 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "搶魚食魚主小疾",
+    "interpretation_ko": "물고기를 빼앗아 먹는 꿈은 가벼운 병치레를 하게 된다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "水中釣魚大吉利",
+    "interpretation_ko": "물속에서 낚시하는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "林中魚獵事無成",
+    "interpretation_ko": "숲속에서 물고기를 잡으려 하는 꿈은 하려던 일이 이루어지지 않는다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "群魚游水主有財",
+    "interpretation_ko": "물고기떼가 물속을 헤엄치는 꿈은 재물이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "鯉魚妻有孕大吉",
+    "interpretation_ko": "잉어를 보는 꿈은 아내가 임신하게 된다는 매우 좋은 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "大魚揚動主聲名",
+    "interpretation_ko": "큰 물고기가 힘차게 뛰어오르는 꿈은 이름을 널리 떨친다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "小魚生子大吉利",
+    "interpretation_ko": "작은 물고기가 새끼를 낳는 꿈은 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "乾魚下水命復通",
+    "interpretation_ko": "말라 죽은 물고기가 다시 물속으로 들어가는 꿈은 막혔던 운이 다시 풀린다는 좋은 징조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蝦變魚主失財物",
+    "interpretation_ko": "새우가 물고기로 변하는 꿈은 재물을 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "身坐魚蟲病患除",
+    "interpretation_ko": "몸이 물고기나 벌레 위에 앉아 있는 꿈은 앓던 병이 낫는다는 좋은 징조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "螃蟹主百病消散",
+    "interpretation_ko": "게를 보는 꿈은 온갖 병이 사라진다는 좋은 징조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蝦蛤鳴走有口舌",
+    "interpretation_ko": "새우나 조개가 소리를 내며 움직이는 꿈은 시비가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "水蛭主女人失財",
+    "interpretation_ko": "거머리를 보는 꿈은 여자가 재물을 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "螺螄主在外不利",
+    "interpretation_ko": "우렁이를 보는 꿈은 외출하거나 밖에서 하는 일이 불리해진다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蛤蜊主老來生子",
+    "interpretation_ko": "조개를 보는 꿈은 늘그막에 자식을 얻는다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "飛蛾入燈他人敗",
+    "interpretation_ko": "나방이 등불로 날아드는 꿈은 다른 사람이 낭패를 볼 수 있다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蚤飛不繭主小吉",
+    "interpretation_ko": "벼룩이 날아다니는 꿈은 작지만 좋은 일이 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜂蝶交戲事不成",
+    "interpretation_ko": "벌과 나비가 어울려 노는 꿈은 하려던 일이 이루어지지 않는다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜂螫人腳有財喜",
+    "interpretation_ko": "벌이 발을 쏘는 꿈은 재물이 생기는 기쁜 일이 있다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜣蜋作堆主失財",
+    "interpretation_ko": "말똥구리가 무더기를 만드는 꿈은 재물을 잃을 수 있다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜻蜓對飛美人來",
+    "interpretation_ko": "잠자리 한 쌍이 마주 나는 꿈은 아름다운 인연이 찾아온다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "促織聲繁有小惱",
+    "interpretation_ko": "귀뚜라미가 자주 우는 꿈은 자잘한 근심거리가 생긴다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蝙蝠群飛陰事長",
+    "interpretation_ko": "박쥐떼가 날아다니는 꿈은 은밀한 일이 늘어난다는 뜻입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜈蚣咬人壽命吉",
+    "interpretation_ko": "지네가 사람을 무는 꿈은 오래 산다는 좋은 징조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蜓蚰主有小財吉",
+    "interpretation_ko": "민달팽이를 보는 꿈은 작은 재물이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蚯蚓主田宅大吉",
+    "interpretation_ko": "지렁이를 보는 꿈은 땅이나 집에 관해 매우 좋은 일이 생긴다는 길조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蚊子咬人主有失",
+    "interpretation_ko": "모기가 사람을 무는 꿈은 무언가를 잃게 된다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "蠅汸人衣必有讒",
+    "interpretation_ko": "파리가 옷에 달라붙는 꿈은 누군가 험담을 하게 된다는 흉조입니다"
+  },
+  {
+    "category": "龜鱉魚蝦昆蟲",
+    "source_zh": "螻蟈主有不明事",
+    "interpretation_ko": "땅강아지나 청개구리를 보는 꿈은 애매하고 분명치 않은 일이 생긴다는 뜻입니다"
+  }
+]

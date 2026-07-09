@@ -185,6 +185,7 @@ export default function IntroScreen({ onSubmit, moonRef: moonRefProp, moonReturn
                   : {}
               }
             >
+              <p className={styles.privacyNote}>입력하신 꿈 내용은 저장되지 않습니다.</p>
               <textarea
                 ref={textareaRef}
                 className={styles.dreamInput}

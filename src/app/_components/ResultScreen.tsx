@@ -24,6 +24,7 @@ export default function ResultScreen({
 }: Props) {
   const buildInitialBubbles = (): Bubble[] => {
     const b: Bubble[] = [];
+    if (dream.trim()) b.push({ role: "user", text: dream });
     b.push({ role: "ai", text: summary });
     if (analysis.length > 1) b.push({ role: "ai", text: analysis.slice(0, -1).join("\n\n") });
     if (analysis.length > 0) b.push({ role: "ai", text: analysis[analysis.length - 1] });
@@ -59,10 +60,12 @@ export default function ResultScreen({
     return () => clearTimeout(t);
   }, [revealedCount]);
 
-  // Auto-scroll when new content appears
+  // Auto-scroll on follow-up conversation activity only — not while the
+  // initial result bubbles are being revealed, so the user can read from
+  // the top without being pulled down.
   useEffect(() => {
     chatRef.current?.scrollTo({ top: chatRef.current.scrollHeight, behavior: "smooth" });
-  }, [revealedCount, chatBubbles, isAiTyping]);
+  }, [chatBubbles, isAiTyping]);
 
   // Fetch follow-up question once all initial bubbles are revealed
   useEffect(() => {
@@ -157,12 +160,18 @@ export default function ResultScreen({
         <div className={styles.chatInner}>
           {/* Initial bubbles revealed one by one */}
           {initialBubbles.current.slice(0, revealedCount).map((bubble, i) => (
-            <div key={`init-${i}`} className={`${styles.aiBubbleWrap} ${styles.fadeIn}`}>
-              <span className={styles.aiIcon}>🌙</span>
-              <div className={styles.aiBubble}>
-                {parseBold(bubble.text)}
+            bubble.role === "ai" ? (
+              <div key={`init-${i}`} className={`${styles.aiBubbleWrap} ${styles.fadeIn}`}>
+                <span className={styles.aiIcon}>🌙</span>
+                <div className={styles.aiBubble}>
+                  {parseBold(bubble.text)}
+                </div>
               </div>
-            </div>
+            ) : (
+              <div key={`init-${i}`} className={`${styles.userBubbleWrap} ${styles.fadeIn}`}>
+                <div className={styles.userBubble}>{bubble.text}</div>
+              </div>
+            )
           ))}
 
           {/* Conversation bubbles */}
