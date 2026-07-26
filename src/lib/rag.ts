@@ -66,6 +66,7 @@ export async function retrieveDreamSymbols(
       console.error("match_dream_symbols RPC error:", error);
       return [];
     }
+    console.log("[RAG] top-k matches:", JSON.stringify(data, null, 2));
     return (data as DreamSymbolMatch[]) ?? [];
   } catch (error) {
     console.error("retrieveDreamSymbols failed:", error);

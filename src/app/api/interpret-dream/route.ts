@@ -125,7 +125,9 @@ When the dream action is a verb (e.g. 날다, 걷다, 먹다), always convert it
     // 전통 해몽 참고자료 (RAG, 검색 결과가 있을 때만)
     const ragContext =
       dreamSymbolMatches.length > 0
-        ? `전통 해몽 참고자료 (주공해몽 등 전통 문헌에서 검색된 것으로, 그대로 베끼지 말고 실제 꿈 내용과 맞는 것만 자연스럽게 녹여 활용하세요. 맞지 않으면 무시하세요):
+        ? // RAGAS 테스트용 (faithfulness checking 으로 사용)
+          // ? `전통 해몽 참고자료 (주공해몽 등 전통 문헌에서 검색된 것으로, 그대로 베끼지 말고 실제 꿈 내용과 맞는 것만 자연스럽게 녹여 활용하세요. 맞지 않으면 무시하세요):
+          `전통 해몽 참고자료 (주공해몽 등 전통 문헌에서 검색된 것으로, 실제 꿈 내용과 맞는 것만 자연스럽게 녹여 활용하세요. 맞지 않으면 무시하세요):
 ${dreamSymbolMatches.map((m) => `- ${m.interpretation_ko}`).join("\n")}`
         : "";
 
@@ -140,18 +142,18 @@ ALL sentences across every field must consistently end with "~입니다" or "~�
 ONLY bold NOUNS or NOUN PHRASES (e.g. **하늘**, **불**, **어머니**, **강물**). NEVER bold a verb in dictionary form (e.g. do NOT write **날다**, **먹다**, **보다**). If the key symbol is an action, bold its noun equivalent instead (날다 → **비행**, 먹다 → **식사**, 걷다 → **발걸음**).`;
 
     // JSON 응답 형식
-    const responseFormat = `Respond ONLY in the following JSON format. Do not include any text outside the JSON.
+    const responseFormat = `The "analysis" array must contain 7-8 string items total, in this exact order:
+STEP 1 (keyword items, 2-3 items): Judge which symbolic elements in the dream are the MOST important (do not list every object — pick only the 2-3 that carry the strongest symbolic weight). For each, write ONE short line in the form "**단어**: 짧은 의미" giving just its core symbolic meaning, 20-30 Korean characters, no more.
+STEP 2 (paragraph items, 4-5 items): AFTER the keyword items, continue with full paragraphs (40-60 Korean characters each). First 1-2 paragraphs: deeper interpretation weaving the key symbols together with the dreamer's current psychological state. Remaining 2-3 paragraphs: focus on future predictions — what will happen, what changes are coming, and any specific advice. Each paragraph should feel like a fortune reading, not just symbolic analysis.
+
+Respond ONLY in the following JSON format. Do not include any text outside the JSON.
 
 {
   "summary": "Start with '길몽' or '흉몽' or '평몽', then one-line core meaning (~25 Korean characters). Do NOT repeat the user's input.",
   "analysis": [
     "keyword item(s) FIRST: \"**단어**: 짧은 의미 (20-30 Korean characters)\" — one line per key symbol",
-    "then paragraph item(s): \"단락 내용 (40-60 Korean characters). Bold key symbols with **단어**.\"",
-    ...
+    "then paragraph item(s): \"단락 내용 (40-60 Korean characters). Bold key symbols with **단어**.\""
   ],
-  7-8 string items total, in this exact order:
-  STEP 1 (keyword items, 2-3 items): Judge which symbolic elements in the dream are the MOST important (do not list every object — pick only the 2-3 that carry the strongest symbolic weight). For each, write ONE short line in the form "**단어**: 짧은 의미" giving just its core symbolic meaning, 20-30 Korean characters, no more.
-  STEP 2 (paragraph items, 4-5 items): AFTER the keyword items, continue with full paragraphs (40-60 Korean characters each). First 1-2 paragraphs: deeper interpretation weaving the key symbols together with the dreamer's current psychological state. Remaining 2-3 paragraphs: focus on future predictions — what will happen, what changes are coming, and any specific advice. Each paragraph should feel like a fortune reading, not just symbolic analysis.
   "goodElements": "2 sentences: one about a fortunate sign in the dream, one about what good event or change it predicts for the dreamer's near future. Bold key nouns.",
   "badElements": "2 sentences: one about a cautionary sign in the dream, one about what risk or challenge it warns of ahead. Bold key nouns."
 }
@@ -194,6 +196,9 @@ If not a dream: { "summary": "해몽할 수 없는 내용입니다.", "analysis"
     };
 
     const parseResponse = (responseText: string) => {
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) return null;
+
       let parsed: {
         summary: string;
         analysis: unknown;
@@ -201,16 +206,19 @@ If not a dream: { "summary": "해몽할 수 없는 내용입니다.", "analysis"
         badElements: string;
       };
       try {
-        const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-        parsed = JSON.parse(jsonMatch?.[0] || responseText);
+        parsed = JSON.parse(jsonMatch[0]);
       } catch {
-        const lines = responseText.split("\n").filter((l) => l.trim());
-        parsed = {
-          summary: lines[0] || "",
-          analysis: lines.slice(1),
-          goodElements: "",
-          badElements: "",
-        };
+        // 모델이 문자열 값 안에 이스케이프되지 않은 개행/제어문자를 그대로 넣어
+        // JSON 문법이 깨지는 경우가 있어, 이를 정리한 뒤 한 번 더 시도한다.
+        try {
+          const sanitized = jsonMatch[0].replace(
+            /[\u0000-\u001f]+/g,
+            (match) => (match.includes("\n") ? "\\n" : " "),
+          );
+          parsed = JSON.parse(sanitized);
+        } catch {
+          return null;
+        }
       }
       return {
         summary: parsed.summary || "",
@@ -228,6 +236,7 @@ If not a dream: { "summary": "해몽할 수 없는 내용입니다.", "analysis"
     for (let attempt = 0; attempt <= 1; attempt++) {
       const responseText = await callGroq(messages);
       const result = parseResponse(responseText);
+      if (!result) continue;
       summary = result.summary;
       analysis = result.analysis;
       goodElements = result.goodElements;

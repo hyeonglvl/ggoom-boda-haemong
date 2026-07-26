@@ -1,4 +1,6 @@
 -- 주공해몽 RAG용 스키마. Supabase SQL Editor에서 1회 실행.
+-- documnetation 용으로 그냥 가지고 있음 ㅋㅋ supabase table 한번 보면됨.
+-- 삭제하면 진짜 슬플 예정;
 
 create extension if not exists vector;
 
