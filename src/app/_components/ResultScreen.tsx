@@ -67,13 +67,22 @@ export default function ResultScreen({
     chatRef.current?.scrollTo({ top: chatRef.current.scrollHeight, behavior: "smooth" });
   }, [chatBubbles, isAiTyping]);
 
-  // Fetch follow-up question once all initial bubbles are revealed
+  // Fetch follow-up question once all initial bubbles are revealed.
+  // Skipped when the interpretation was a refusal (not an actual dream) —
+  // goodElements/badElements are only ever empty in that case — since there's
+  // no real dream content for the model to ask a deepening question about.
+  const isRefusal = !goodElements && !badElements;
+
   useEffect(() => {
     if (revealedCount < initialBubbles.current.length) return;
     if (followUpFetched.current) return;
     followUpFetched.current = true;
 
     const fetchFollowUp = async () => {
+      if (isRefusal) {
+        setInputActive(true);
+        return;
+      }
       setIsAiTyping(true);
       try {
         const res = await fetch("/api/dream-chat", {
@@ -99,7 +108,7 @@ export default function ResultScreen({
     };
 
     fetchFollowUp();
-  }, [revealedCount, dream, summary, analysis, goodElements, badElements]);
+  }, [revealedCount, dream, summary, analysis, goodElements, badElements, isRefusal]);
 
   const handleSend = useCallback(async () => {
     const text = inputText.trim();
